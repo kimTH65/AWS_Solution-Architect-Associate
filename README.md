@@ -3,7 +3,7 @@
 <h3>컴퓨팅</h3>  
 EC2 서버,EC2 Container Service, 
 <br>ELB(Elastic Load Balancing) - L4 : 부하분산서비스(로드 밸런싱), 
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 준다.
+<br>&emsp;외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 준다.
 <br>Lambda - 이벤트 응답으로 코드 실행
 <br>Auto Scaling - 서버 자동 증설
 
