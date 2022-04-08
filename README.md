@@ -31,8 +31,8 @@ IAM - 사용자 계정 및 그룹관리
 <hr>
 
 <h2>애플리케이션</h2>
-Work Spaces - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비)
-<br><br> Work Docs - 스토리지 및 공유 서비스
+Work Spaces - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비) / 사용자 무제한
+<br><br> Work Docs - 스토리지 및 공유 서비스 / 무료 평가판 사용자 최대 50명
 
 <hr>
 
@@ -53,8 +53,9 @@ Kinesis - 데이터 수집처리, 실시간 처리
 
 <h2>앱 서비스</h2>
 CloudSearch - 검색기능
-<br><br> SES - 이메일
-<br><br> SWF - 상태 추적, 작업 조정
+<br><br> Simple Email Service(SES) - 트랙잭션 이메일, 마케팅 메시지 도는 다른 유형의 고품질 콘텐츠, 실시간 엑세스
+<br><br> Simple Queue Service(SQS) - 메세지 손실 없이 모든 처리량 수준에서 어떤 데이터 볼륨도 전송, 1개 보증 But 추가 데이터 처리 보장 X
+<br><br> Simple WorkFlow(SWF) - 클라우드 상태 추적, 작업 조정
 
 <hr>
 
@@ -67,9 +68,9 @@ OpsWorks - 애플리케이션 구성과 배포 자동화
 <hr>
 
 <h2>모바일 서비스</h2>
-SNS - 알림을 스마트폰으로 푸시
+Simple Notification Service(SNS) - 알림을 스마트폰으로 푸시
 <br><br> Cognito - 사용자 데이터 동기화 및 자격 증명
-<br><br> Mobile Analytics - 모바일 분석, 보고서
+<br><br> Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br><br> ElastiCashe - 캐시 클러스터
 
 
