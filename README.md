@@ -38,15 +38,16 @@ Work Spaces - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞�
 
 <h2>데이터베이스</h2>
 RDS - 관계형 DB, Mysql, Oracle 등
-<br><br> DynamoDB - NoSQL
-<br><br> Redishift - DW설정, 페타규모
+<br><br> DynamoDB - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
+<br><br> Redishift - DW, 페타규모
+<br>&emsp;DW(데이터 웨어 하우스) = 사용자의 의사 결정에 도움줌, 기간시스템의 DB에 축척된 데이터를 공통형식으로 변환후 관리하는 DB
 <br><br> ElasticCache - 캐시 클러스터
 
 <hr>
 
 <h2>분석</h2>
 Kinesis - 데이터 수집처리, 실시간 처리
-<br><br> EMR - 데이터 프로세싱
+<br><br> Elastic Map Reduce(EMR) - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 화용.
 <br><br> Data Pipeline - 데이터 액세스, 변환처리
 
 <hr>
@@ -60,9 +61,9 @@ CloudSearch - 검색기능
 <hr>
 
 <h2>배포 및 관리</h2>
-OpsWorks - 애플리케이션 구성과 배포 자동화
-<br><br> CloudFormaiton - 리소스 템플릿 생성
-<br><br> Elastic Beanstalk - 애플리케이션 자동 배포 처리
+OpsWorks - 애플리케이션 구성과 배포 자동화 / 애플리케이션 관리 솔루션 , Chef 레시피 및 Bash 스크립트를 사용해 코드로 구성
+<br><br> CloudFormaiton - 리소스 템플릿 생성 / 템플릿 및 연관된 리소스 모음(스택)을 배포 및 업데이트
+<br><br> Elastic Beanstalk - 애플리케이션 자동 배포 처리 및 규모 조정
 <br><br> CodeDeploy
 
 <hr>
