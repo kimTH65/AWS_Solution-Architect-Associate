@@ -33,3 +33,44 @@ IAM - 사용자 계정 및 그룹관리
 <h2>애플리케이션</h2>
 Work Spaces - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비)
 <br><br> Work Docs - 스토리지 및 공유 서비스
+
+<hr>
+
+<h2>데이터베이스</h2>
+RDS - 관계형 DB, Mysql, Oracle 등
+<br><br> DynamoDB - NoSQL
+<br><br> Redishift - DW설정, 페타규모
+<br><br> ElasticCache - 캐시 클러스터
+
+<hr>
+
+<h2>분석</h2>
+Kinesis - 데이터 수집처리, 실시간 처리
+<br><br> EMR - 데이터 프로세싱
+<br><br> Data Pipeline - 데이터 액세스, 변환처리
+
+<hr>
+
+<h2>앱 서비스</h2>
+CloudSearch - 검색기능
+<br><br> SES - 이메일
+<br><br> SWF - 상태 추적, 작업 조정
+
+<hr>
+
+<h2>배포 및 관리</h2>
+OpsWorks - 애플리케이션 구성과 배포 자동화
+<br><br> CloudFormaiton - 리소스 템플릿 생성
+<br><br> Elastic Beanstalk - 애플리케이션 자동 배포 처리
+<br><br> CodeDeploy
+
+<hr>
+
+<h2>모바일 서비스</h2>
+SNS - 알림을 스마트폰으로 푸시
+<br><br> Cognito - 사용자 데이터 동기화 및 자격 증명
+<br><br> Mobile Analytics - 모바일 분석, 보고서
+<br><br> ElastiCashe - 캐시 클러스터
+
+
+
