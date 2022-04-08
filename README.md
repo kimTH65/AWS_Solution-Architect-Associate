@@ -19,7 +19,7 @@ VPC - 네트워크
 
 <h2>스토리지</h2>
 S3(일반) / EBS(Elastic Block Store, 빠른 블록) / Glacier(저렴) 
-<br><br>CDN(CLOUD FRONT) - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌
+<br><br>CDN(CLOUD FRONT) - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <hr>
 
