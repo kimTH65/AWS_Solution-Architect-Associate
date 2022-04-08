@@ -27,6 +27,7 @@ S3(일반) / EBS(Elastic Block Store, 빠른 블록) / Glacier(저렴)
 IAM - 사용자 계정 및 그룹관리
 <br><br> Cloud Watch : 모니터링 시스템
 <br><br> Cloud Trail : 계정에 대한 API 호출 기록
+<br><br> FireWall : 방화벽
 
 <hr>
 
