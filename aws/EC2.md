@@ -4,10 +4,10 @@
 
 <h3>기본 사항</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경, AMI = 서버에 필요한 OS,소프트웨어를 구성된 상태로 제공되는 템플릿
+<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경,  AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
 <br><br>
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/Using_Tags.html">태그</a> : 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
-<br><br>인스턴스 유형 : 인스턴스를 위한 CPU,메모리,스토리지,네트워킹 용량 여러가지 구성 제공
+<br><br>인스턴스 유형 : 인스턴스를 위한 CPU, 메모리, 스토리지, 네트워킹 용량 여러가지 구성 제공
 <br><br>인스턴스와 EBS볼륨 등의 리소스를 다른 물리적 장소에서 액세스할 수 있는 리전 및 가용영역
 
 <hr>
