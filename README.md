@@ -1,7 +1,7 @@
 # AWS
 
 <h2>컴퓨팅</h2>  
-EC2 서버
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2 서버</a>
 <br><br>EC2 Container Service
 <br><br>ELB(Elastic Load Balancing) - L4 : 부하분산서비스(로드 밸런싱), 
 <br>&emsp;외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 
