@@ -28,5 +28,18 @@
 <br><br>LAMP 웹서버,LAMP 스택 : Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
 <br><br>Secure Sockets Layer/Transport Layer Security(SSL/TLS): 웹 서버와 웹 클라이언트 간 암호화된 채널을 만들어 데이터 도청 방지
 
+<hr>
+<h3>Amazon EC2 액세스</h3>
+<br>CLI(AWS Command Line Interface) 
+<br><br>AWS Tools for Windows PowerShell
+
+<hr>
+<h3>Amazon EC2 가격</h3>
+<br>프리티어: 무료
+<br><br>On-Demand instances : 약정 결제없이 초 단위로 사용한 인스턴스 요금을 지불
+<br><br>Savings Plans : 1/3년 기간 동안 시간당 USD로 일괄된 사용량을 약정하여서 비용 절감
+<br><br>예약 인스턴스 : 1/3년 기간 동안 인스턴스 유형/지역을 포함해 특정 인스턴스 약정하여서 비용 절감
+<br><br>Spot Instances : 미사용 EC2 인스턴스 요청하여서 비용 대폭 절감
+
 
 
