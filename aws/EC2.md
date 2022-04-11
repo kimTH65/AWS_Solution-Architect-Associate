@@ -22,8 +22,11 @@
 <br>인스턴스 스토어 볼륨 : 임시 데이터 저장하는 스토리지 볼륨, 인스턴스 중단,최대 절전모드/종료 시 삭제됨
 <br><br>EBS(Elastic Block Store) : Amazon EBS 볼륨을 사용해 영구 스토리지 볼륨에 데이터 저장
 
-
-
+<hr>
+<h3>Linux 인스턴스 작업</h3>
+<br>AWS Systems Manager Run Command
+<br><br>LAMP 웹서버,LAMP 스택 : Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
+<br><br>Secure Sockets Layer/Transport Layer Security(SSL/TLS): 웹 서버와 웹 클라이언트 간 암호화된 채널을 만들어 데이터 도청 방지
 
 
 
