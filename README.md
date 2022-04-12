@@ -11,7 +11,7 @@
 
 <h2>네트워킹</h2>
 VPC - 네트워크
-<br><br> Route53 - DNS(도메인 네임 시스템)
+<br><br> Route53 - DNS(Domain Name System)
 <br><br> Direct Connect - 데이터 전용선
 
 <hr>
