@@ -13,10 +13,23 @@
 
 <hr>
 <h3>네트워킹 및 보안</h3>
-<br><a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-key-pairs.html">키 페어</a>로 인스턴스 로그인 정보 보호(AWS는 퍼블릭 키 저장, 사용자는 개인 키 안전장소에 보관)
-<br><br>보안 그룹을 사용해 인스턴스에 연결할 수 있는 프로토콜, 포트, 소스 IP 범위를 지정하는 방화벽 기능
-<br><br>탄력적 IP 주소(EIP) : 동적 클라우드 컴퓨팅을 위한 고정IPv4 주소
-<br><br>AWS 클라우드에서 논리적으로 격리되어 있지만 원할 때 마다 고객의 네트워크와 연결 가능한 가상 네트워크(VPC)
+<br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-key-pairs.html">키 페어</a>로 
+인스턴스 로그인 정보 보호(AWS는 퍼블릭 키 저장, 사용자는 개인 키 안전장소에 보관)
+
+<br><br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-security-groups.html">보안 그룹</a>
+을 사용해 인스턴스에 연결할 수 있는 프로토콜, 포트, 소스 IP 범위를 지정하는 방화벽 기능
+
+<br><br>
+
+탄력적 IP 주소(EIP) : 동적 클라우드 컴퓨팅을 위한 고정IPv4 주소
+
+<br><br>
+
+AWS 클라우드에서 논리적으로 격리되어 있지만 원할 때 마다 고객의 네트워크와 연결 가능한 가상 네트워크(VPC)
 
 <hr>
 <h3>스토리지</h3>
