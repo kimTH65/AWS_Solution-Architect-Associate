@@ -22,7 +22,7 @@
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">탄력적 IP 주소(EIP)</a> : 동적 클라우드 컴퓨팅을 위한 고정IPv4 주소
 <br><br>
 
-VPC(Virtual private Cloud) : AWS 클라우드에서 논리적으로 격리되어 있지만 원할 때 마다 고객의 네트워크와 연결 가능한 가상 네트워크
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC(Virtual private Cloud)</a> : AWS 클라우드에서 논리적으로 격리되어 있지만 원할 때 마다 고객의 네트워크와 연결 가능한 가상 네트워크
 
 <hr>
 <h3>스토리지</h3>
