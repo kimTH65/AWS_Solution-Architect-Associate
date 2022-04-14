@@ -3,7 +3,7 @@
 <h2>컴퓨팅</h2>  
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2 서버</a>
 <br><br>EC2 Container Service : 인스턴스 클러스터에서 손쉽게 Docker 컨테이너를 실행, 중지 및 관리할 수 있는 서비스
-<br>&emsp;&emsp;&emsp;서버 클러스터란 : 다른 서버들을 하나로 묶어 하나의 시스템같이 동작하게 함-> 클라이언트들에게 고가용성의 서비스를 제공
+<br>&emsp;&emsp;&emsp;클러스터란 : 작업 또는 서비스의 논리적 그룹, 클러스터를 사용하여 애플리케이션을 격리할 수 있다.
 <br><br>ELB(Elastic Load Balancing) - L4 : 부하분산서비스(로드 밸런싱), 외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 준다.
 <br><br>Lambda - 이벤트 응답으로 코드 실행
 <br><br>Auto Scaling - 서버 자동 증설
