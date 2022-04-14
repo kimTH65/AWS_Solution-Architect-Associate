@@ -68,9 +68,9 @@ VPC（Virtual Private Cloud）- 가상 프라이빗 클라우드
 <br> 공용 IP가 없으면 NAT(네트워크 주소 변환) 수행
 <br>    &emsp; &emsp; NAT 사용하면 프라이빗 서브넷이 인터넷 접근 가능, But 인터넷에서 접근은 불가,
 <br>    &emsp; &emsp; IPv6 트래픽 지원 x -> 송신 전용 게이트웨이(Egress-only Internet Gateway) 사용
-<br>    &emsp; &emsp; &emsp; 송신 전용 게이트웨이 :
-<br>    &emsp; &emsp; &emsp; IPv6 트래픽에 사용가능 ,인터넷으로 아웃바운드 허용,But 인터넷에서 인바운드 X
-<br>    &emsp; &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함
+<br>    &emsp; &emsp; &emsp; &emsp; 송신 전용 게이트웨이 :
+<br>    &emsp; &emsp; &emsp; &emsp; IPv6 트래픽에 사용가능 ,인터넷으로 아웃바운드 허용,But 인터넷에서 인바운드 X
+<br>    &emsp; &emsp; &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함
 
 <br> 트래픽 관리, 권한 부여 및 엑세스 제어, 모니터링 등 제공
 
@@ -92,7 +92,34 @@ VPC（Virtual Private Cloud）- 가상 프라이빗 클라우드
 <br> &emsp; &emsp; Statelss 성질(요청 정보를 따로 저장하지 않기 때문에 응답하는 트래픽에 대한 필터링을 설정해야함)
 
 <br> Flow logs : VPC의 네트워크 인터페이스로 오가는 IP트래픽에 대한 정보를 캡쳐
-<br> &emsp; &emsp; 
+<br> &emsp; &emsp; Flow logs는 Amazon CloudWatch 로그를 사용하여 저장
 
 <br> 같은 서브넷끼리 통신할 때 : Security Group 정책을 거치면서 통신
 <br> 다른 서브넷끼리 통신할 떄 : NACL 정책을 거친후, Security Group을 거친다
+
+<hr>
+
+<h2> 서브넷 </h2>  
+<br> 공용 서브넷과 비공개 서브넷은 IGW 연결 유무에 따라 달라진다.(인터넷이 연결 되어 있는지에 따라)
+
+<br> 공용 서브넷은 공용 IP, 탄력적 IP 주소가 필요하다.
+
+<br> VPN = 사설 게이트웨이, 인터넷에 연결되어 있진 않지만 가상 사설 게이트웨이를 통해 라우팅된 경우 VPN전용 서브넷 
+
+<hr>
+
+<h2> 공유 VPC </h2> 
+
+<br> EC2 인스턴스, RDS 데이터베이스 같은 애플리케이션 리소스를 공유되고 관리되는 중앙 VPC로 생성, 다른 계정과 공유 가능
+
+<hr>
+
+<h2> VPC 엔드포인트 </h2> 
+
+<br> AWS 서비스에 외부 인터넷 구간으로 접근하지 않고, 직접적으로 접근하여 강력한 보안을 제공하는 프라이빗 액세스 기능
+
+<br> 게이트웨이 엔드포인트(S3, DynamoDB 서비스와 연결), 인터페이스 엔드포인트
+
+<br> 프라이빗 네트워크를 이용한 다른 VPC 웹 서버 접근 방법
+<br> &emsp; &emsp; EC2 인스턴스 → 인터페이스 엔드포인트 → 프라이빗 링크 →  NLB → 각각의 웹 서버
+<br> &emsp; &emsp; &emsp; &emsp; 프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결
