@@ -44,12 +44,10 @@
 <br><br>AWS Tools for Windows PowerShell
 
 <hr>
-<h3>Amazon EC2 가격</h3>
+<h3><a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-purchasing-options.html">Amazon EC2 가격</a></h3>
 <br>프리티어 : 무료
 <br><br>On-Demand instances : 약정 결제없이 초 단위로 사용한 인스턴스 요금을 지불
 <br><br>Savings Plans : 1/3년 기간 동안 시간당 USD로 일괄된 사용량을 약정하여서 비용 절감
 <br><br>예약 인스턴스 : 1/3년 기간 동안 인스턴스 유형/지역을 포함해 특정 인스턴스 약정하여서 비용 절감
 <br><br>Spot Instances : 미사용 EC2 인스턴스 요청하여서 비용 대폭 절감
-
-
 
