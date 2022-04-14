@@ -31,9 +31,12 @@
 
 <hr>
 <h3>Linux 인스턴스 작업</h3>
-<br>AWS Systems Manager Run Command
-<br><br>LAMP 웹서버,LAMP 스택 : Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
-<br><br>Secure Sockets Layer/Transport Layer Security(SSL/TLS): 웹 서버와 웹 클라이언트 간 암호화된 채널을 만들어 데이터 도청 방지
+<br>AWS Systems Manager Run Command : PowerShell같은 것 이용해서 명령 보내는 것
+
+<br>LAMP(Linux, Apache, MYSQL/MairaDB, PHP/Perl/Python같은 언어) 웹서버,LAMP 스택 :
+<br>Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
+
+<br>Secure Sockets Layer/Transport Layer Security(SSL/TLS): 웹 서버와 웹 클라이언트 간 암호화된 채널을 만들어 데이터 도청 방지
 
 <hr>
 <h3>Amazon EC2 액세스</h3>
