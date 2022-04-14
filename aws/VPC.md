@@ -66,31 +66,33 @@ VPC（Virtual Private Cloud）- 가상 프라이빗 클라우드
 <br> 수평 확장/중복 가능, VPC인스턴스와 인터넷 간의 통신을 허용
 
 <br> 공용 IP가 없으면 NAT(네트워크 주소 변환) 수행
-<br>    &emsp; NAT 사용하면 프라이빗 서브넷이 인터넷 접근 가능, But 인터넷에서 접근은 불가,
-<br>    &emsp; IPv6 트래픽 지원 x -> 송신 전용 게이트웨이(Egress-only Internet Gateway) 사용
-<br>    &emsp; &emsp; 송신 전용 게이트웨이 :
-<br>    &emsp; &emsp; IPv6 트래픽에 사용가능 ,인터넷으로 아웃바운드 허용,But 인터넷에서 인바운드 X
-<br>    &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함
+<br>    &emsp; &emsp; NAT 사용하면 프라이빗 서브넷이 인터넷 접근 가능, But 인터넷에서 접근은 불가,
+<br>    &emsp; &emsp; IPv6 트래픽 지원 x -> 송신 전용 게이트웨이(Egress-only Internet Gateway) 사용
+<br>    &emsp; &emsp; &emsp; 송신 전용 게이트웨이 :
+<br>    &emsp; &emsp; &emsp; IPv6 트래픽에 사용가능 ,인터넷으로 아웃바운드 허용,But 인터넷에서 인바운드 X
+<br>    &emsp; &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함
 
 <br> 트래픽 관리, 권한 부여 및 엑세스 제어, 모니터링 등 제공
 
 <br> 인스턴스에 대한 인터넷 엑세스 사용방법 :
-<br> &emsp; 서브넷은 인터넷 게이트웨이의 경로가 있는 RouteTables 가지고 있어야함
-<br> &emsp; 인스턴스에 공용IP, 탄력적 IP 할당되어 있어야함
-<br> &emsp; 인스턴스와 연결된 보안 그룹 및 NACL이 관련 트래픽을 허용해야함
+<br> &emsp; &emsp; 서브넷은 인터넷 게이트웨이의 경로가 있는 RouteTables 가지고 있어야함
+<br> &emsp; &emsp; 인스턴스에 공용IP, 탄력적 IP 할당되어 있어야함
+<br> &emsp; &emsp; 인스턴스와 연결된 보안 그룹 및 NACL이 관련 트래픽을 허용해야함
 
 <hr>
 
 <h2> VPC Security </h2> 
 
 <br> Security groups : ec2 인스턴스에 대한 방화벽 역활, 인바운드 및 아웃바운드 트래픽 모두 제어
-<br> &emsp; Stateful 성질(요청 정보를 저장하여 응답하는 트래픽 제어를 하지않음)
+<br> &emsp; &emsp; Stateful 성질(요청 정보를 저장하여 응답하는 트래픽 제어를 하지않음)
 
-<br> Network access control lists (ACLs) : 서브넷에 대한 방화벽 역활, 서브넷 수준에서 인바운드 및 아웃바운드 트래픽 제어
-<br> &emsp; 서브넷은 한가지 NACLs와 연결가능 But NACLs는 여러 서브넷과 연결가능, 
-<br> &emsp; Statelss 성질(요청 정보를 따로 저장하지 않기 때문에 응답하는 트래픽에 대한 필터링을 설정해야함)
+<br> Network access control lists (ACLs) : 서브넷에 대한 방화벽 역활, 
+<br> &emsp; &emsp; 서브넷 수준에서 인바운드 및 아웃바운드 트래픽 제어,
+<br> &emsp; &emsp; 서브넷은 한가지 NACLs와 연결가능 But NACLs는 여러 서브넷과 연결가능, 
+<br> &emsp; &emsp; Statelss 성질(요청 정보를 따로 저장하지 않기 때문에 응답하는 트래픽에 대한 필터링을 설정해야함)
 
 <br> Flow logs : VPC의 네트워크 인터페이스로 오가는 IP트래픽에 대한 정보를 캡쳐
+<br> &emsp; &emsp; 
 
 <br> 같은 서브넷끼리 통신할 때 : Security Group 정책을 거치면서 통신
 <br> 다른 서브넷끼리 통신할 떄 : NACL 정책을 거친후, Security Group을 거친다
