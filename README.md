@@ -46,7 +46,7 @@ RDS - 관계형 DB, Mysql, Oracle 등
 
 <h2>분석</h2>
 Kinesis - 데이터 수집처리, 실시간 처리
-<br><br> Elastic Map Reduce(EMR) - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 화용.
+<br><br> Elastic Map Reduce(EMR) - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 활용.
 <br><br> Data Pipeline - 데이터 액세스, 변환처리
 
 <hr>
