@@ -3,7 +3,7 @@
 <h2>컴퓨팅</h2>  
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2 서버</a>
 <br><br><a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">EC2 Container Service </a>
-<br><br>ELB(Elastic Load Balancing) - L4 : 부하분산서비스(로드 밸런싱), 외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 준다.
+<br><br><a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 <br><br>Lambda - 이벤트 응답으로 코드 실행
 <br><br>Auto Scaling - 서버 자동 증설
 
