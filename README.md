@@ -38,7 +38,9 @@
 
 <h2>스토리지</h2>
 
-S3(일반) / EBS(Elastic Block Store, 빠른 블록) / Glacier(저렴) 
+<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반) / 
+<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) /
+<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">Glacier</a>(저렴,데이터 아카이빙용) 
 
 <br>
 
