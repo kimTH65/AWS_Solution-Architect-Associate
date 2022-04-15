@@ -11,7 +11,7 @@
 <h2>네트워킹</h2>
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC</a> - 네트워크
 <br><br> Route53 - DNS(Domain Name System)
-<br><br> Direct Connect - 데이터 전용선
+<br><br> Direct Connect - 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
 
 <hr>
 
