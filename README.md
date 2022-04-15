@@ -4,7 +4,7 @@
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2 서버</a>
 <br><br><a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">EC2 Container Service </a>
 <br><br><a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
-<br><br>Lambda - 이벤트 응답으로 코드 실행
+<br><br><a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a>  - 이벤트 응답으로 코드 실행
 <br><br>Auto Scaling - 서버 자동 증설
 
 <hr>
