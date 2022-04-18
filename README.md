@@ -95,7 +95,7 @@
 
 <br>
 
-ElasticCache - 캐시 클러스터
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터
 
 <hr>
 
