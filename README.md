@@ -105,11 +105,11 @@
 
 <br>
 
-Elastic Map Reduce(EMR) - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 활용.
+<a href="https://docs.aws.amazon.com/ko_kr/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 활용.
 
 <br>
 
-Data Pipeline - 데이터 액세스, 변환처리
+<a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - 데이터 액세스, 변환처리, 데이터의 이동과 변환을 자동화하는 데 사용할 수 있는 웹 서비스
 
 <hr>
 
