@@ -155,11 +155,11 @@
 
 <h2>모바일 서비스</h2>
 
-Simple Notification Service(SNS) - 알림을 스마트폰으로 푸시
+<a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 알림을 스마트폰으로 푸시
 
 <br>
 
-Cognito - 사용자 데이터 동기화 및 자격 증명
+<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - 사용자 데이터 동기화 및 자격 증명
 
 <br>
 
