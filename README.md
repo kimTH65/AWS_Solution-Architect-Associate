@@ -172,3 +172,38 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <h2>용어</h2>
 
+<br>amazon fsx
+
+<br>efs
+
+<br>alb
+
+<br>ecr
+
+<br>aurora -az
+
+<br>iops ssd
+
+<br>iscsi
+
+<br>버킷
+
+<br>정적 콘텐츠
+
+<br>windows 파일 서버 매커니즘
+
+<br>sqs와 람다
+
+<br>snowbal edge
+
+<br>sfa
+
+<br>스냅샷
+
+<br>인스턴스 스토어
+
+<br>postgreSQL
+
+<br>oltp
+
+<br>cloud front a ns
