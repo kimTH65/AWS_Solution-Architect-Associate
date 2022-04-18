@@ -205,7 +205,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>&emsp;&emsp;&emsp;&emsp; Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
 <br>&emsp;&emsp;&emsp;&emsp; Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
 
-<br>snowball edge : 선택 가능한 온보드 스토리지와 컴퓨팅 파워를 갖춘 Snowball 디바이스의 한 유형
+<br>Snowball Edge : 선택 가능한 온보드 스토리지와 컴퓨팅 파워를 갖춘 Snowball 디바이스의 한 유형
 
 <br>SFA(Sales Force Automation) : 영업 자동화
 
