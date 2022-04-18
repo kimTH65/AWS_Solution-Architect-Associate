@@ -87,7 +87,7 @@
 
 <br> 
 
-Redishift - DW, 페타규모
+<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redishift</a> - DW, 페타규모
 
 <br>
 
