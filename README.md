@@ -62,7 +62,8 @@
 
 <a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : 계정에 대한 API 호출 기록
 
-<br>FireWall : 방화벽
+<br>
+<a href="https://aws.amazon.com/ko/network-firewall/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc">FireWall</a> : 방화벽
 
 <hr>
 
