@@ -115,25 +115,25 @@
 
 <h2>앱 서비스</h2>
 
-CloudSearch - 검색기능
+<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 검색기능
 
 <br>
 
-Simple Email Service(SES) - 트랙잭션 이메일, 마케팅 메시지 도는 다른 유형의 고품질 콘텐츠, 실시간 엑세스
+<a href="https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - 트랙잭션 이메일, 마케팅 메시지 도는 다른 유형의 고품질 콘텐츠, 실시간 엑세스
 
 <br>
 
-Simple Queue Service(SQS) - 메세지 손실 없이 모든 처리량 수준에서 어떤 데이터 볼륨도 전송, 1개 보증 But 추가 데이터 처리 보장 X
+<a href="https://docs.aws.amazon.com/ko_kr/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html">Simple Queue Service(SQS)</a> - 메세지 손실 없이 모든 처리량 수준에서 어떤 데이터 볼륨도 전송, 1개 보증 But 추가 데이터 처리 보장 X, FIFO
 
 <br>
 
-Simple WorkFlow(SWF) - 클라우드 상태 추적, 작업 조정
+<a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - 클라우드 상태 추적, 작업 조정
 
 <hr>
 
 <h2>배포 및 관리</h2>
 
-OpsWorks - 애플리케이션 구성과 배포 자동화 / 애플리케이션 관리 솔루션 , Chef 레시피 및 Bash 스크립트를 사용해 코드로 구성
+<a href="https://docs.aws.amazon.com/ko_kr/opsworks/latest/userguide/welcome.html">OpsWorks</a> - 애플리케이션 구성과 배포 자동화 / 애플리케이션 관리 솔루션 , Puppet/Chef 레시피 및 Bash 스크립트를 사용해 코드로 구성
 
 <br>
 
