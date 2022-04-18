@@ -122,4 +122,4 @@
 
 <br> 프라이빗 네트워크를 이용한 다른 VPC 웹 서버 접근 방법
 <br> &emsp; &emsp;&emsp; &emsp; EC2 인스턴스 → 인터페이스 엔드포인트 → 프라이빗 링크 →  NLB → 각각의 웹 서버
-<br> &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; 프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결
+<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결
