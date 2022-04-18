@@ -14,12 +14,12 @@
 <br>&emsp;&emsp;&emsp;&emsp; HTTP, HTTPS의 특성을 주로 다룸 -> HTTP의 헤더 정보를 이용해 부하분산을 실시 
 <br>&emsp;&emsp;&emsp;&emsp; SSL 인증서를 탑재할 수 있어 EC2를 대신하 SSL 암호화/ 복호화를 대신 진행
 
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; SSL(Secure Sockets Layer) : 보안 프로토콜/ 개인정보 보호, 인증, 무결성을 인터넷 통신에 제공
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  SSL(Secure Sockets Layer) : 보안 프로토콜/ 개인정보 보호, 인증, 무결성을 인터넷 통신에 제공
 
 <br> Network Load Balancer(NLB) : OSI 7 Layer의 4계층에 해당, 송신자와 수신자의 논리적 연결을 담당,
 <br>&emsp;&emsp;&emsp;&emsp; endpoint(사용자) 간의 연결을 생성하고 데이터를 얼마나 보냈는지,제대로 받았는지 등 확인, TCP/UDP가 대표적
 
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; TCP - 데이터의 정확성 확인,
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; UDP - 사용자 데이터그램 프로토콜, 빠름, 스트리밍같이 연속성/속도가 중요할 때 사용
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  TCP - 데이터의 정확성 확인,
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  UDP - 사용자 데이터그램 프로토콜, 빠름, 스트리밍같이 연속성/속도가 중요할 때 사용
 
 <br> Classic Load Balancer(CLB) : 로드밸런서에 인스턴스를 등록하고 라우팅
