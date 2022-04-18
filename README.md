@@ -172,19 +172,24 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <h2>용어</h2>
 
-<br>amazon fsx
+<br>amazon fsx : Windows Server에 구축되는 완전관리형 파일 스토리지
 
-<br>efs
+<br>EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스
 
-<br>alb
+<br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
-<br>ecr
+<br>Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
 
-<br>aurora -az
+<br>AZ(Availability Zone/가용 영역) : 클라우드 서비스를 사용할 수 있는 국가(지역)
 
-<br>iops ssd
+<br>IOPS(Input/Output Operation Per Second) : 초당 입출력 속도
 
-<br>iscsi
+<br>IOPS SSD : 주요 성능 특성이 iops인 ssd
+
+<br>ISCSI(Internet Small Computer System Interface) : 컴퓨터 환경에서 데이터 스토리지 시설을 이어주는 IP기반의 스토리지 네트워킹 표준
+<br>IP망을 통해 SCSI 명령을 전달함으로서 인트라넷을 거쳐 데이터 전송을 쉽게하고 먼 거리에 걸쳐 스토리지를 관리하는데 쓰인다.
+
+<br>이더넷(LAN에서 사용) - 인터넷 - 인트라넷(인터넷과 비슷하지만 폐쇠적)
 
 <br>버킷
 
