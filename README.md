@@ -101,7 +101,7 @@
 
 <h2>분석</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/kinesisvideostreams/latest/dg/what-is-kinesis-video.html">Kinesis</a> - 데이터 수집처리, 실시간 처리
+<a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - 데이터 수집처리, 실시간 처리
 
 <br>
 
