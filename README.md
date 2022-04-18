@@ -213,7 +213,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>인스턴스 스토어 : 인스턴스에 블록 수준의 임시 스토리지를 제공
 
-<br>PpostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
+<br>PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
 
 <br>OLTP(OnLine Transaction Processing) : 온라인 트랜잭션 처리, 네트워크 상의 온라인 사용자들의 Database에 대한 일괄 트랜잭션 처리
 
