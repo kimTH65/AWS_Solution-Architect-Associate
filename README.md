@@ -79,7 +79,7 @@
 
 <h2>데이터베이스</h2>
 
-RDS - 관계형 DB, Mysql, Oracle 등
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 관계형 DB, Mysql, Oracle 등
 
 <br>
 
