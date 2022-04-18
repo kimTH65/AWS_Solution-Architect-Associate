@@ -161,9 +161,7 @@ Cognito - 사용자 데이터 동기화 및 자격 증명
 
 Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
-<br> 
+<hr>
 
-ElastiCashe - 캐시 클러스터
-
-
+<h2>용어</h2>
 
