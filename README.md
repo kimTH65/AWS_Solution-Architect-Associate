@@ -195,20 +195,30 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>정적 콘텐츠(누가 언제 서버에 요청하더라도 같은 내용을 보여줌) / 동적 콘텐츠(누가,언제,어떻게 서버에 요청 하냐에 따라 다른 내용을 보여줌) 
 
-<br>Windows 파일 서버 매커니즘 :
+<br>File Server란 : OS에 따라 Windows 파일서버, Unix 파일서버, Linux 파일서버가 있음
+<br>&emsp;&emsp;&emsp;&emsp; Windows 파일서버는 CIFS(Common Internet File System)을 사용해서 클라이언트에 스토리지 공유
+<br>&emsp;&emsp;&emsp;&emsp; Unix나 Linux는 NFS(Network File System)을 사용
 
-<br>sqs와 람다
+<br>SnowMobile : 초대용량 데이터를 AWS로 이전하는 데 사용하는 엑사바이트 규모의 데이터 전송 서비스. 최대 100PB
 
-<br>snowbal edge
+<br>Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
+<br>&emsp;&emsp;&emsp;&emsp; Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
+<br>&emsp;&emsp;&emsp;&emsp; Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
 
-<br>sfa
+<br>snowball edge : 선택 가능한 온보드 스토리지와 컴퓨팅 파워를 갖춘 Snowball 디바이스의 한 유형
 
-<br>스냅샷
+<br>SFA(Sales Force Automation) : 영업 자동화
 
-<br>인스턴스 스토어
+<br>Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
 
-<br>postgreSQL
+<br>인스턴스 스토어 : 인스턴스에 블록 수준의 임시 스토리지를 제공
 
-<br>oltp
+<br>PpostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
 
-<br>cloud front a ns
+<br>OLTP(OnLine Transaction Processing) : 온라인 트랜잭션 처리, 네트워크 상의 온라인 사용자들의 Database에 대한 일괄 트랜잭션 처리
+
+<br>&emsp;&emsp;&emsp;&emsp;트랜잭션 : 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위
+
+<br>OLAP(OnLine Analytical Processing) : 데이터 웨어하우스 등의 시스템과 연관되어 Data를 분석, 정보를 분석/모델링 하게 하는 분석 방법
+
+<br>NS(Name Server) : 도메인에 대한 정보(A레코드, MX레코드 등)을 가지고 있는 서버
