@@ -52,15 +52,15 @@
 
 <h2>관리 및 보안</h2>
 
-IAM - 사용자 계정 및 그룹관리
+<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM</a> - 사용자 계정 및 그룹관리
 
 <br>
 
-Cloud Watch : 모니터링 시스템
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : 모니터링 시스템
 
 <br>
 
-Cloud Trail : 계정에 대한 API 호출 기록
+<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : 계정에 대한 API 호출 기록
 
 <br>FireWall : 방화벽
 
