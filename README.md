@@ -83,7 +83,7 @@
 
 <br>
 
-DynamoDB - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
+<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
 
 <br> 
 
