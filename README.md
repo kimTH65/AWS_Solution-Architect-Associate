@@ -249,3 +249,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>SAML(Security Assertion Markup Language) 페더레이션(신뢰가 설정된 도메인의 컬렉션)
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
+
+<br>고객 제공 암호화 키(SSE-C)
