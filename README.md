@@ -226,3 +226,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽
 
 <br>EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 실행할 수 있도록 하는 관리형 서비스
+
+<br>SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
