@@ -224,3 +224,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>NS(Name Server) : 도메인에 대한 정보(A레코드, MX레코드 등)을 가지고 있는 서버
 
 <br>WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽
+
+<br>EKS(Elastic Kubernetes Service) :
