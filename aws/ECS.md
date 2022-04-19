@@ -4,7 +4,7 @@ EC2 Container Service : 인스턴스 클러스터에서 손쉽게 Docker 컨테�
 
 <br>&emsp;&emsp;&emsp;&emsp;클러스터란 : 작업 또는 서비스의 논리적 그룹, 클러스터를 사용하여 애플리케이션을 격리할 수 있다.
 
-<br>ECR(EC2 Container Registry): Docker Container 의 이미지를 저장하는 Repository 서비스
+<br>ECR(EC2 Container Registry) : Docker Container 의 이미지를 저장하는 Repository 서비스
 
 <br>시작유형 : 컨테이너를 실행하는데 사용할 수 있는 두 가지 모델
 
