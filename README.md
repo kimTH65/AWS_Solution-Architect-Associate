@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">EC2 Container Service </a>
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service) </a>
 
 <br>
 
