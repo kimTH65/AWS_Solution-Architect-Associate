@@ -251,3 +251,11 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
 
 <br>고객 제공 암호화 키(SSE-C)
+
+<br>DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
+
+<br>Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능
+
+<br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
+
+<br>MQ(Message Queue) : 메세지 기반의 미들웨어
