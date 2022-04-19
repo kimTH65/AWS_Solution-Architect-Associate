@@ -172,9 +172,9 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <h2>용어</h2>
 
-<br>amazon fsx : Windows Server에 구축되는 완전관리형 파일 스토리지
+<br>Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
 
-<br>EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스
+<br>EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
 <br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
