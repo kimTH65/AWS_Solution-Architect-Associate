@@ -267,3 +267,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>Fixed IP : 고정 IP, 내부 IP
 
 <br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
+
+<br>ACM(AWS Certificate Management) : AWS 인증서 관리자
