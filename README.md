@@ -269,3 +269,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
 
 <br>ACM(AWS Certificate Management) : AWS 인증서 관리자
+
+<br>SAM : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
