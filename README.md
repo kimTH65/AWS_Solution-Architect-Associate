@@ -250,7 +250,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
 
-<br>고객 제공 암호화 키(SSE-C)
+<br>암호화 SSE-C,SSE-KMS,SSE-S3(AES-256 사용)
 
 <br>DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
 
