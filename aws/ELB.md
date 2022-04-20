@@ -8,6 +8,8 @@
 
 <br>&emsp;&emsp;&emsp;&emsp;L4스위치 : 로드 밸런싱(부하분산서비스), 외부 요청을 서버가 직접 하지않고 소프트웨어가 받아서 서버로 적절히 나누어 준다.
 
+<br>Connection Draining 기능 : 사용자의 요청을 처리 중인 EC2 인스턴스를 바로 삭제하지 못하도록 하는 기능
+
 <hr>
 <h2>ELB 종류 </h2>
 <br> Applicaiton Load Balancer(ALB) : OSI 7 Layer의 7계층 Applicaiton Layer의 특성을 이용하는 로드밸런서,
