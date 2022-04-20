@@ -261,3 +261,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>MQ(Message Queue) : 메세지 기반의 미들웨어
 
 <br>DLM(데이터 수명 주기 관리자) : ebs 스냅샷 및 삭제 예약 가능
+
+<br>AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
