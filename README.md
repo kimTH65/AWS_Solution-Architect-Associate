@@ -259,3 +259,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
 
 <br>MQ(Message Queue) : 메세지 기반의 미들웨어
+
+<br>DLM(데이터 수명 주기 관리자) : ebs 스냅샷 및 삭제 예약 가능
