@@ -271,3 +271,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>ACM(AWS Certificate Management) : AWS 인증서 관리자
 
 <br>SAM : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
+
+<br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
