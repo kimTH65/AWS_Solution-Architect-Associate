@@ -274,4 +274,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
+<br>XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가 또는 게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격 수법
+
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
