@@ -44,10 +44,15 @@
 <br>
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">Glacier</a>(저렴,데이터 아카이빙) 
 <br>
+
 Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
+
 <br>
+
 EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+
 <br>
+
 <a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <hr>
