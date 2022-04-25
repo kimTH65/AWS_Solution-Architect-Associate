@@ -371,4 +371,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>AWS ADS :
 
+<br>QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 식각화 도구 
+
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
