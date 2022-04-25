@@ -43,9 +43,11 @@
 <a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) /
 <br>
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">Glacier</a>(저렴,데이터 아카이빙) 
-
 <br>
-
+Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
+<br>
+EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+<br>
 <a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <hr>
@@ -172,9 +174,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <h2>용어</h2>
 
-<br>Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
-
-<br>EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
 <br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
