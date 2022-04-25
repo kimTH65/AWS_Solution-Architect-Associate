@@ -92,7 +92,13 @@ DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능
 
 <br>
 
-Snow Family : 오프라인 데이터 전송 디바이스 
+Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
+
+<br>&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
+
+<br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
+
+<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
 
 <br>
 
@@ -281,14 +287,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>File Server란 : OS에 따라 Windows 파일서버, Unix 파일서버, Linux 파일서버가 있음
 <br>&emsp;&emsp;&emsp;&emsp; Windows 파일서버는 CIFS(Common Internet File System)을 사용해서 클라이언트에 스토리지 공유
 <br>&emsp;&emsp;&emsp;&emsp; Unix나 Linux는 NFS(Network File System)을 사용
-
-<br>SnowMobile : 초대용량 데이터를 AWS로 이전하는 데 사용하는 엑사바이트 규모의 데이터 전송 서비스. 최대 100PB
-
-<br>Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
-<br>&emsp;&emsp;&emsp;&emsp; Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
-<br>&emsp;&emsp;&emsp;&emsp; Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
-
-<br>Snowball Edge : 선택 가능한 온보드 스토리지와 컴퓨팅 파워를 갖춘 Snowball 디바이스의 한 유형
 
 <br>SFA(Sales Force Automation) : 영업 자동화
 
