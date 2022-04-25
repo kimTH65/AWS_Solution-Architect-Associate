@@ -68,15 +68,15 @@ EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동
 
 <br>
 
-<h3>스토리지 종류</h3>
-
-<br>
-
 EC2 Instance Store :
 
 <br>
 
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+<h3>기타 기능</h3>
+
+<br>
+
+<a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <br>
 
@@ -88,7 +88,7 @@ Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 
 
 <br>
 
-DLM(데이터 수명 주기 관리자) : ebs 스냅샷 및 삭제 예약 가능
+DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능
 
 <hr>
 
