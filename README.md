@@ -184,6 +184,10 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 &emsp;&emsp;&emsp;&emsp;Redis : 
 
+<br>
+
+Aurora :
+
 <hr>
 
 
