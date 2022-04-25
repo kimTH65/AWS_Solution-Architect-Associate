@@ -64,7 +64,7 @@ Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,
 
 <br>
 
-EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+EFS(Elastic File System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
 <br>
 
