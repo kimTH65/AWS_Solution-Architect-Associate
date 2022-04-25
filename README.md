@@ -49,11 +49,19 @@ Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,
 
 <br>
 
-EFS(Elastic FIle System) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+EC2 Instance Store :
+
+<br>
+
+EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
 <br>
 
 <a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> - 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+
+<br>
+
+Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
 
 <hr>
 
@@ -212,8 +220,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>Snowball Edge : 선택 가능한 온보드 스토리지와 컴퓨팅 파워를 갖춘 Snowball 디바이스의 한 유형
 
 <br>SFA(Sales Force Automation) : 영업 자동화
-
-<br>Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
 
 <br>인스턴스 스토어 : 인스턴스에 블록 수준의 임시 스토리지를 제공
 
