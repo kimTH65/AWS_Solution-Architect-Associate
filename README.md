@@ -22,6 +22,10 @@
 
 <hr>
 
+
+<!--                                        ----------------------------------------------------------                                      -->
+
+
 <h2>네트워킹</h2>
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC</a> - 네트워크
@@ -35,6 +39,10 @@
 <a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> - 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
 
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>스토리지</h2>
 
@@ -63,7 +71,19 @@ EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동
 
 Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
 
+<br>
+
+Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능
+
+<br>
+
+DLM(데이터 수명 주기 관리자) : ebs 스냅샷 및 삭제 예약 가능
+
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>관리 및 보안</h2>
 
@@ -82,6 +102,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 
 <hr>
 
+
+<!--                                        ----------------------------------------------------------                                      -->
+
+
 <h2>애플리케이션</h2>
 
 <a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비) / 사용자 무제한
@@ -91,6 +115,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 <a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - 스토리지 및 공유 서비스 / 무료 평가판 사용자 최대 50명
 
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>데이터베이스</h2>
 
@@ -114,6 +142,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 
 <hr>
 
+
+<!--                                        ----------------------------------------------------------                                      -->
+
+
 <h2>분석</h2>
 
 <a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - 데이터 수집처리, 실시간 처리
@@ -127,6 +159,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 <a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - 데이터 액세스, 변환처리, 데이터의 이동과 변환을 자동화하는 데 사용할 수 있는 웹 서비스
 
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>앱 서비스</h2>
 
@@ -145,6 +181,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 <a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - 클라우드 상태 추적, 작업 조정
 
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>배포 및 관리</h2>
 
@@ -171,6 +211,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 
 <hr>
 
+
+<!--                                        ----------------------------------------------------------                                      -->
+
+
 <h2>모바일 서비스</h2>
 
 <a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 알림을 스마트폰으로 푸시
@@ -184,6 +228,10 @@ Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 �
 Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
 
 <h2>용어</h2>
 
@@ -264,13 +312,11 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
 
-<br>Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능
 
 <br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
 
 <br>MQ(Message Queue) : 메세지 기반의 미들웨어
 
-<br>DLM(데이터 수명 주기 관리자) : ebs 스냅샷 및 삭제 예약 가능
 
 <br>AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
 
