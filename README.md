@@ -68,7 +68,7 @@ EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동
 
 <br>
 
-EC2 Instance Store :
+EC2 Instance Store : 블록 수준의 임시 스토리지, 호스트 컴퓨터에 물리적으로 연결된 디스크
 
 <br>
 
@@ -89,6 +89,18 @@ Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 
 <br>
 
 DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능
+
+<br>
+
+Snow Family : 오프라인 데이터 전송 디바이스 
+
+<br>
+
+DataSync : 네트워크 대역폭을 최적화하고 온프레미스-AWS 스토리지간의 데이터 이동 가속화 하는 온라인 전송 서비스
+
+<br>
+
+AWS Storage GateWay : 온프레미스에서 거의 무제한의 스토리지에 액세스할 수 있는 하이브리드 클라우드 스토리지 서비스
 
 <hr>
 
