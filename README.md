@@ -180,6 +180,10 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터
 
+<br>
+
+&emsp;&emsp;&emsp;&emsp;Redis : 
+
 <hr>
 
 
@@ -366,7 +370,5 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>AWS DMS :
 
 <br>AWS ADS :
-
-<br>Redis : 
 
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
