@@ -359,4 +359,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가 또는 게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격 수법
 
+<br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
+
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
