@@ -312,8 +312,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 실행할 수 있도록 하는 관리형 서비스
 
-<br>SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
-
 <br>STS(Security Token Service) : AWS리소스에 대한 액세스를 제어할 수 있는 임시 보안 자격 증명을 생성
 
 <br>RAID(Redundunt Array of Independent Disk) : 2개이상의 디스크를 병렬로 처리하여 성능 및 안정성을 향상시킴, 디스크 오류나 데이터 손실등 장애 대응을 위한 용도로도 사용할 수 있다.
@@ -360,5 +358,13 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가 또는 게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격 수법
 
 <br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
+
+<br>AWS SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
+
+<br>AWS MGN :
+
+<br>AWS DMS :
+
+<br>AWS ADS :
 
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
