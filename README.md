@@ -108,6 +108,17 @@ AWS DataSync : 네트워크 대역폭을 최적화하고 온프레미스-AWS 스
 
 AWS Storage Gateway : 온프레미스에서 거의 무제한의 스토리지에 액세스할 수 있는 하이브리드 클라우드 스토리지 서비스
 
+<br>
+
+AWS Transfer Family : SFTP,FTPS 및 FTP 프로토콜을 사용하여 S3/EFS로 간단하고 원활하게 파일을 전송
+
+<br>
+
+AWS Elastic Disaster Recovery(DRS) : 저렴한 스토리지, 최소한의 컴퓨팅/특정 시점 복구로 빠르고 안정적으로 데이터 복구
+
+<br>
+
+AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌스를 중앙 관리/ 자동화 하는 완전 관리형 정책 기반 서비스
 <hr>
 
 
