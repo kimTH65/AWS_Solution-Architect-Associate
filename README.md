@@ -46,22 +46,33 @@
 
 <h2>스토리지</h2>
 
-<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반) / 
+<h3>스토리지 종류</h3>
+
+<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반)
+
 <br>
-<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) /
+
+<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) 
+
 <br>
+
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">Glacier</a>(저렴,데이터 아카이빙) 
+
 <br>
 
 Amazon FSx : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
 
 <br>
 
-EC2 Instance Store :
+EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
 <br>
 
-EFS(Elastic FIle Storage) : EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+<h3>스토리지 종류</h3>
+
+<br>
+
+EC2 Instance Store :
 
 <br>
 
