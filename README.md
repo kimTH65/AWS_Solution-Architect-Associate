@@ -380,11 +380,13 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>AWS SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
 
-<br>AWS MGN :
+<br>AWS MGN(Application Migration Service) : Lift and Shift 마이그레이션에 권장되는 기본 마이그레이션 서비스
 
-<br>AWS DMS :
+<br>&emsp;&emsp;&emsp;&emsp;Lift and Shift : 애플리케이션을 클라우드로 마이그레이션 하는 방식 중 하나
 
-<br>AWS ADS :
+<br>AWS DMS(Database Migration Service) : DB,DW 등을 쉽게 마이그레이션할 수 있는 클라우드 서비스
+
+<br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
 
 <br>QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 식각화 도구 
 
