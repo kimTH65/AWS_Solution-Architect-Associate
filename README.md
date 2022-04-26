@@ -191,7 +191,7 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터, 
 
 <br>
 
