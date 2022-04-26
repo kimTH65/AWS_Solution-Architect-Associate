@@ -304,7 +304,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>SSE-C : 고객 제공 키를 사용한 서버 측 암호화, 사용자가 암호화 키 관리
 
-<h3>Migration</h3>
+<br><h3>Migration</h3>
 
 <br>AWS SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
 
@@ -314,7 +314,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>AWS DMS(Database Migration Service) : DB,DW 등을 쉽게 마이그레이션할 수 있는 클라우드 서비스
 
-<h3>기타</h3>
+<br><h3>기타</h3>
 
 <br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
