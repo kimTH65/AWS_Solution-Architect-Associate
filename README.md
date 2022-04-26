@@ -195,7 +195,7 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <br>
 
-&emsp;&emsp;&emsp;&emsp;Redis : 
+&emsp;&emsp;&emsp;&emsp;Redis : 백업, 소프트웨어 패치, 자동 장애 및 복구를 관리,자동 스냅샷/수동 고유한 백업 스냅샷 생성 후 이용해 클러스터 복원 
 
 <br>
 
