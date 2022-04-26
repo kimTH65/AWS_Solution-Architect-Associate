@@ -174,12 +174,9 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 
 <h2>데이터베이스</h2>
+<h3>관계형 데이터베이스</h3>
 
 <a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 관계형 DB, Mysql, Oracle 등
-
-<br>
-
-<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
 
 <br> 
 
@@ -191,6 +188,18 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <br>
 
+Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
+
+<br>
+
+<h3>키-값(NoSQL)</h3>
+
+<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
+
+<br>
+
+<h3>인 메모리</h3>
+
 <a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터, 
 
 <br>
@@ -199,11 +208,17 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <br>
 
-Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
+<h3>기타</h3>
+
+PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
 
 <br>
 
-PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
+Amazon Neptune : 그래프 유형, IoT 애플리케이션, DevOps, 산업용 텔레메트리
+
+<br>
+
+Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프로필, MongoDB호환
 
 <hr>
 
