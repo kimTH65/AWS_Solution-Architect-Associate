@@ -186,7 +186,11 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <br>
 
-Aurora :
+Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
+
+<br>
+
+PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
 
 <hr>
 
@@ -283,9 +287,20 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <h2>용어</h2>
 
+<h3>암호화</h3>
+
+<br>SSE-S3 : Amazon S3 관리형 키를 사용한 서버측 암호화, 가장 강력한 블록 암호(AES-256)사용하여 데이터 암호화
+
+<br>SSE-KMS : AWS Key Management Service에 저장된 KMS키를 사용한 서버 측 암호화
+
+<br>SSE-C : 고객 제공 키를 사용한 서버 측 암호화, 사용자가 암호화 키 관리
+
+<br><h3>기타</h3>
+
+
 <br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
-<br>Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
+
 
 <br>AZ(Availability Zone/가용 영역) : 클라우드 서비스를 사용할 수 있는 국가(지역)
 
@@ -306,7 +321,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>&emsp;&emsp;&emsp;&emsp; Windows 파일서버는 CIFS(Common Internet File System)을 사용해서 클라이언트에 스토리지 공유
 <br>&emsp;&emsp;&emsp;&emsp; Unix나 Linux는 NFS(Network File System)을 사용
 
-<br>PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
+
 
 <br>OLTP(OnLine Transaction Processing) : 온라인 트랜잭션 처리, 네트워크 상의 온라인 사용자들의 Database에 대한 일괄 트랜잭션 처리
 
@@ -341,15 +356,11 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
 
-<br>암호화 SSE-C,SSE-KMS,SSE-S3(AES-256 사용)
-
 <br>DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
-
 
 <br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
 
 <br>MQ(Message Queue) : 메세지 기반의 미들웨어
-
 
 <br>AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
 
