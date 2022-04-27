@@ -54,8 +54,6 @@
 
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(저렴,데이터 아카이빙) 
 
-<br>
-
 <h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
 
 <br>
@@ -98,11 +96,11 @@ DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능
 
 Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
 
-<br>&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
+<h6>&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
 
 <br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
 
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
+&emsp;&emsp;&emsp;&emsp;Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용</h6>
 
 <br>
 
@@ -149,9 +147,7 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽, SQL주입 또는 사이트 간 스크립팅(XXS)와 같은 일반적인 공격 패턴을 차단 보안 규칙 정의 가능
 
-<br>
-
-&emsp;&emsp;&emsp;&emsp;XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가 또는 게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격
+<h6>&emsp;&emsp;&emsp;&emsp;XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가 또는 게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격</h6>
 
 <hr>
 
