@@ -4,7 +4,8 @@
 
 <h3>기본 사항</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경,<br>AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
+<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경,
+<br>&emsp;&emsp;&emsp;&emsp;AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
 <br><br>
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/Using_Tags.html">태그</a> : 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
 <br><br>
@@ -34,7 +35,7 @@
 <br>AWS Systems Manager Run Command : PowerShell같은 것 이용해서 명령 보내는 것
 
 <br>LAMP(Linux, Apache, MYSQL/MairaDB, PHP/Perl/Python같은 언어) 웹서버,LAMP 스택 :
-<br>Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
+<br>&emsp;&emsp;&emsp;&emsp;Amazon Linux 2 인스턴스에 PHP및 MariaDB 지원을 포함하는 Apache 웹서버
 
 <br>Secure Sockets Layer/Transport Layer Security(SSL/TLS): 웹 서버와 웹 클라이언트 간 암호화된 채널을 만들어 데이터 도청 방지
 
