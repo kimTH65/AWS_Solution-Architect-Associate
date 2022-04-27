@@ -200,11 +200,15 @@ Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이�
 
 <h3>인 메모리</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터, 
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElasticCache</a> - 캐시 클러스터, Redis, Memcached
 
 <br>
 
 &emsp;&emsp;&emsp;&emsp;Redis : 백업, 소프트웨어 패치, 자동 장애 및 복구를 관리,자동 스냅샷/수동 고유한 백업 스냅샷 생성 후 이용해 클러스터 복원 
+
+<br>
+
+&emsp;&emsp;&emsp;&emsp;Memcached : 
 
 <br>
 
