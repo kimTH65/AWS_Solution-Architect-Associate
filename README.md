@@ -28,7 +28,7 @@
 
 <h2>네트워킹</h2>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC</a> - 네트워크
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC(Virtual Private Cloud)</a>
 
 <br>
 
