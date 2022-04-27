@@ -50,15 +50,15 @@
 
 <a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반)
 
-<br>
+<h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
 
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(저렴,데이터 아카이빙) 
 
-<h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
-
-<br>
+<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
 
 <a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) 
+
+<h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능</h6>
 
 <br>
 
@@ -74,6 +74,19 @@ EC2 Instance Store : 블록 수준의 임시 스토리지, 호스트 컴퓨터�
 
 <br>
 
+Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
+
+<h6>
+&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
+
+<br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
+
+&emsp;&emsp;&emsp;&emsp;Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
+  
+<br>
+  
+</h6>
+
 <h3>기타 기능</h3>
 
 <br>
@@ -83,26 +96,6 @@ EC2 Instance Store : 블록 수준의 임시 스토리지, 호스트 컴퓨터�
 <br>
 
 Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
-
-<br>
-
-Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능
-
-<br>
-
-DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능
-
-<br>
-
-Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
-
-<h6>
-&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
-
-<br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
-
-&emsp;&emsp;&emsp;&emsp;Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
-</h6>
 
 <br>
 
