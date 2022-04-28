@@ -293,7 +293,12 @@ QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하�
 
 <br>
 
-AppFlow : 
+AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 안전하게 데이터를 전송할 수 있는 통합 서비스
+
+<h6>
+&emsp;&emsp;&emsp;&emsp;SaaS(Software as a Service) : 서비스형 소프트웨어, 클라우드 서비스로 제공되는 소프트웨어   
+</h6>
+  
 
 <hr>
 
