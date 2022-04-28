@@ -79,11 +79,11 @@ Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자
 
 <br>
 
-API Gateway :
+API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지할 수 있는 서비스, Lambda함께 REST Api 생성가능
 
 <br>
 
-Direct Connect : 
+Direct Connect : AWS환경과 온프레미스 환경과의 연결을 위한 서비스
 
 <hr>
 
