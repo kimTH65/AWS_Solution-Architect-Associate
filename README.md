@@ -6,10 +6,6 @@
 
 <br>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service) </a>
-
-<br>
-
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 
 <br>
@@ -20,7 +16,24 @@
 
 <a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> - 서버 자동 증설
 
+<br>
+
+SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
+
 <hr>
+
+
+<!--                                        ----------------------------------------------------------                                      -->
+
+
+<h2>컨테이너</h2>  
+
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service) </a>
+
+<br>
+
+EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 실행할 수 있도록 하는 관리형 서비스
+
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -374,8 +387,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>NS(Name Server) : 도메인에 대한 정보(A레코드, MX레코드 등)을 가지고 있는 서버
 
-<br>EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 실행할 수 있도록 하는 관리형 서비스
-
 <br>STS(Security Token Service) : AWS리소스에 대한 액세스를 제어할 수 있는 임시 보안 자격 증명을 생성
 
 <br>RAID(Redundunt Array of Independent Disk) : 2개이상의 디스크를 병렬로 처리하여 성능 및 안정성을 향상시킴, 디스크 오류나 데이터 손실등 장애 대응을 위한 용도로도 사용할 수 있다.
@@ -408,8 +419,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
 
 <br>ACM(AWS Certificate Management) : AWS 인증서 관리자
-
-<br>SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
 
 <br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
