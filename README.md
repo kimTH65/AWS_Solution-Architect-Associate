@@ -183,6 +183,10 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <br>
 
+<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - 사용자 데이터 동기화 및 자격 증명
+
+<br>
+
 WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽, SQL주입 또는 사이트 간 스크립팅(XXS)와 같은 일반적인 공격 패턴을 차단 보안 규칙 정의 가능
 
 <h6>&emsp;&emsp;&emsp;&emsp;XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가/게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격</h6>
@@ -355,10 +359,6 @@ AppFlow :
 <h2>모바일 서비스</h2>
 
 <a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 알림을 스마트폰으로 푸시
-
-<br>
-
-<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - 사용자 데이터 동기화 및 자격 증명
 
 <br>
 
