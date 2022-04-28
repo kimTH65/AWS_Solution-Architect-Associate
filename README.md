@@ -156,6 +156,10 @@ AWS Transfer Family : SFTP,FTPS 및 FTP 프로토콜을 사용하여 S3/EFS로 �
 
 AWS Elastic Disaster Recovery(DRS) : 저렴한 스토리지, 최소한의 컴퓨팅/특정 시점 복구로 빠르고 안정적으로 데이터 복구
 
+<h6>
+&emsp;&emsp;&emsp;&emsp;DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
+</h6>
+
 <br>
 
 AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌스를 중앙 관리/ 자동화 하는 완전 관리형 정책 기반 서비스
@@ -376,6 +380,10 @@ AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 �
 
 Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
+<br>
+
+AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
+
 <hr>
 
 
@@ -458,11 +466,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
 
-<br>DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
-
 <br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
-
-<br>AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
 
 <br>Fixed IP : 고정 IP, 내부 IP
 
