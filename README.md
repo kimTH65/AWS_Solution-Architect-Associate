@@ -35,7 +35,7 @@ ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 
 EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 하는 관리형 서비스
 
 <h6>
-&emsp;&emsp;&emsp;&emsp; Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
+&emsp;&emsp;&emsp;&emsp;  Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
 </h6>
 
 <hr>
