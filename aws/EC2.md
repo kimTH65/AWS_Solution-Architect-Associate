@@ -10,7 +10,8 @@
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/Using_Tags.html">태그</a> : 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
 <br><br>
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html">인스턴스 유형</a> : 인스턴스를 위한 CPU, 메모리, 스토리지, 네트워킹 용량 여러가지 구성 제공
-<br><br><a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html">리전 및 가용영역</a> : 인스턴스와 EBS볼륨 등의 리소스를 다른 물리적 장소에서 액세스할 수 있는 리전 및 가용영역
+<br><br><a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html">리전(Region) 및 가용영역(AZ)</a> : 인스턴스와 EBS볼륨 등의 리소스를 다른 물리적 장소에서 액세스할 수 있는 리전 및 가용영역
+<h6>&emsp;&emsp;&emsp;&emsp;AZ(Availability Zone) : 각 리전 내의 격리된 위치, 개별 데이터 센터로 구성되어 있음</h6>
 <hr>
 <h3>네트워킹 및 보안</h3>
 <br>
