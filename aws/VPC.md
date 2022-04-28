@@ -3,7 +3,7 @@
 <h2>VPC 사이징</h2>  
 2^16(65536개)IP 주소 사용가능, 10.0.0.0/16 과 같은 CIDR(Classless Inter - Domain Routing)블록 형태 IP주소 필요
 <br><br>허용된 CIDR 블록 사이즈 : 
-<br> /28 netmask (minimum with 2 4 - 16 available IP address
+<br> /28 netmask (minimum with 2 4 - 16 available IP address)
 <br> /16 netmask (maximum 2/6 16 available IP addddss 4 - 16 available IP address)
 
 <br>개인이 비공개로 라우팅할 수 있는 IP 주소:
