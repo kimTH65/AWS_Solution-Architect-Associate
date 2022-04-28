@@ -289,7 +289,7 @@ QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하�
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 검색기능
+<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 완전 관리형 서비스, 웹 사이트/애플리케이션을 위한 검색 솔루션을 쉽게 설치, 관리 및 확장
 
 <br>
 
