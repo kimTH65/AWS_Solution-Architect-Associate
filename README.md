@@ -351,9 +351,15 @@ AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 �
 <br>
 비교 : 편리함 = 1. Elastic Beanstalk(모든 형태 자동화)&emsp;2.OpsWorks(Chef/Puppet이해 필요)&emsp;3. CloudFormaiton
 
-<br>&nbsp;&emsp;&emsp; 자유도(세세한 설정가능) = 1.CloudFormaiton&emsp;2.OpsWorks&emsp;3.Elastic Beanstalk
+<br>
 
-<br><a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2인스턴스, 오프레미스 인스턴스, 서버리스 Lambda 함수 등의 서비스로 애플리케이션 배포를 자동화하는 서비스
+자유도(세세한 설정가능) = 1.CloudFormaiton&emsp;2.OpsWorks&emsp;3.Elastic Beanstalk
+
+<br>
+
+<h3>개발자 도구</h3>
+
+<a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2인스턴스, 오프레미스 인스턴스, 서버리스 Lambda 함수 등의 서비스로 애플리케이션 배포를 자동화하는 서비스
 
 <hr>
 
@@ -384,6 +390,10 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>SSE-KMS : AWS Key Management Service에 저장된 KMS키를 사용한 서버 측 암호화
 
 <br>SSE-C : 고객 제공 키를 사용한 서버 측 암호화, 사용자가 암호화 키 관리
+
+<br>ACM(AWS Certificate Manager) : AWS 인증서 관리자
+
+<br>Cloud HSM : 관리형 하드웨어 보안 모듈로 암호화된 키 스토리지 제공
 
 <br><h3>Migration</h3>
 
@@ -457,12 +467,9 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
 
-<br>ACM(AWS Certificate Management) : AWS 인증서 관리자
-
 <br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
 <br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
-
 
 <br> ALIAS : 명령어
 
