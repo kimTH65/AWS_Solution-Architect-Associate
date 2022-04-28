@@ -430,8 +430,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br><h3>기타</h3>
 
-<br>AZ(Availability Zone/가용 영역) : 클라우드 서비스를 사용할 수 있는 국가(지역)
-
 <br>IOPS(Input/Output Operation Per Second) : 초당 입출력 속도
 
 <br>IOPS SSD : 주요 성능 특성이 iops인 ssd
