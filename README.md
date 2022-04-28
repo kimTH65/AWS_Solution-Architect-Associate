@@ -234,7 +234,7 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 
 <br>
 
-Athena : 
+Athena : S3에 저장된 데이터에 쿼리를 날려 간편하게 데이터를 분석할 수 있는 SQL 쿼리 서비스
 
 <br>
 
