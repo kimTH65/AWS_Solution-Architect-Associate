@@ -68,9 +68,10 @@
 <br> 공용 IP가 없으면 NAT(네트워크 주소 변환) 수행
 <br>    &emsp; &emsp;&emsp; &emsp; NAT 사용하면 프라이빗 서브넷이 인터넷 접근 가능, But 인터넷에서 접근은 불가,
 <br>    &emsp; &emsp;&emsp; &emsp; IPv6 트래픽 지원 x -> 송신 전용 게이트웨이(Egress-only Internet Gateway) 사용
-<br>    &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; 송신 전용 게이트웨이 :
+<h6>    &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; 송신 전용 게이트웨이 :
+  
 <br>    &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; IPv6 트래픽에 사용가능 ,인터넷으로 아웃바운드 허용,But 인터넷에서 인바운드 X
-<br>    &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함
+<br>    &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; IPv4를 통한 아웃바운드 전용 인터넷 통신시 NAT 게이트웨이 사용해야함 </h6>  
 
 <br> 트래픽 관리, 권한 부여 및 엑세스 제어, 모니터링 등 제공
 
@@ -122,4 +123,4 @@
 
 <br> 프라이빗 네트워크를 이용한 다른 VPC 웹 서버 접근 방법
 <br> &emsp; &emsp;&emsp; &emsp; EC2 인스턴스 → 인터페이스 엔드포인트 → 프라이빗 링크 →  NLB → 각각의 웹 서버
-<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결
+<h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결</h6>  
