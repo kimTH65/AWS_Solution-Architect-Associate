@@ -6,10 +6,6 @@
 
 <br>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
-
-<br>
-
 <a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a>  - 이벤트 응답으로 코드 실행
 
 <br>
@@ -42,6 +38,10 @@ EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 �
 
 <h2>네트워킹</h2>
 
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
+
+<br>
+
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC(Virtual Private Cloud)</a>
 
 <br>
@@ -50,6 +50,13 @@ EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 �
 
 <br>
 
+VPN :
+
+<br>
+
+<a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+
+<br>
 <a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> - 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
 
 <hr>
@@ -102,10 +109,6 @@ Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/S
 </h6>
 
 <h3>기타 기능</h3>
-
-<br>
-
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <br>
 
@@ -382,7 +385,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>OLTP(OnLine Transaction Processing) : 온라인 트랜잭션 처리, 네트워크 상의 온라인 사용자들의 Database에 대한 일괄 트랜잭션 처리
 
-<br>&emsp;&emsp;&emsp;&emsp;트랜잭션 : 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위
+<h6>&emsp;&emsp;&emsp;&emsp;트랜잭션 : 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위</h6>
 
 <br>OLAP(OnLine Analytical Processing) : 데이터 웨어하우스 등의 시스템과 연관되어 Data를 분석, 정보를 분석/모델링 하게 하는 분석 방법
 
