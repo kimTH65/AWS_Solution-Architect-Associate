@@ -6,6 +6,11 @@
 
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경,
 <br>&emsp;&emsp;&emsp;&emsp;AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
+<h6>
+&emsp;&emsp;&emsp;&emsp;PV(반가상화) AMI(Amazon Machine Image) : guest OS가 Hypervisor를 통해 Hardware를 제어
+<br><br>
+&emsp;&emsp;&emsp;&emsp;HVM(하드웨어 가상 머신) AMI(Amazon Machine Image) : guest와 완전히 독립되고 OS 수정이 없이 사용이 가능
+</h6>
 <br><br>
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/Using_Tags.html">태그</a> : 사용자가 생성하여 Amazon EC2 리소스에 할당할 수 있는 메타데이터
 <br><br>
