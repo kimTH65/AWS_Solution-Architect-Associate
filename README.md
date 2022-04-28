@@ -191,6 +191,10 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <br>
 
+AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
+
+<br>
+
 WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽, SQL주입 또는 사이트 간 스크립팅(XXS)와 같은 일반적인 공격 패턴을 차단 보안 규칙 정의 가능
 
 <h6>&emsp;&emsp;&emsp;&emsp;XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가/게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격</h6>
@@ -475,8 +479,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 <br>SAML(Security Assertion Markup Language) 페더레이션(신뢰가 설정된 도메인의 컬렉션)
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
-
-<br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
 
 <br> ALIAS : 명령어
 
