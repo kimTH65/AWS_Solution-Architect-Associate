@@ -472,8 +472,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
   
 </h6>
 
-<br>PV(반가상화) AMI(Amazon Machine Image)
-
 <br>SAML(Security Assertion Markup Language) 페더레이션(신뢰가 설정된 도메인의 컬렉션)
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
