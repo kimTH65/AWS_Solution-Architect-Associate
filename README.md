@@ -24,11 +24,19 @@ SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하
 
 <h2>컨테이너</h2>  
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service) </a>
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service) : Docker 컨테이너 관리 서비스</a>
 
 <br>
 
-EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 실행할 수 있도록 하는 관리형 서비스
+ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 Repository 서비스
+
+<br>
+
+EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 하는 관리형 서비스
+
+<h6>
+&emsp;&emsp;&emsp;&emsp; Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
+</h6>
 
 <hr>
 
@@ -46,12 +54,17 @@ EKS(Elastic Kubernetes Service) : 쿠버네티스(도커랑 비슷)를 쉽게 �
 
 <br>
 
-<a href="https://aws.amazon.com/ko/route53/">Route53</a>  - DNS(Domain Name System)
+<a href="https://aws.amazon.com/ko/route53/">Route53</a> - DNS(Domain Name System)
 
 <br>
 
-VPN :
-
+VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
+<h6>
+&emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN, AWS VPC환경과 온프레미스 환경의 VPN연결
+<br><br>  
+&emsp;&emsp;&emsp;&emsp;Clinet VPN : 개인이 AWS 서비스나 온프레미스 환경에 접속할 수 있도록 하는 서비스
+</h6>
+  
 <br>
 
 <a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
@@ -363,8 +376,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 <br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
 
 <br><h3>기타</h3>
-
-<br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
 
 <br>AZ(Availability Zone/가용 영역) : 클라우드 서비스를 사용할 수 있는 국가(지역)
 
