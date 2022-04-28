@@ -416,6 +416,14 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
 
+<br><h3>IP</h3>
+
+<br>ROA(Route Origin Authorization) : 고객이 특정 자율 시스템에서 IP 알림을 인증하기 위해 RIR에서 생성한 객체
+
+<br>Fixed IP : 고정 IP, 내부 IP
+
+<br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
+
 <br><h3>기타</h3>
 
 <br>AZ(Availability Zone/가용 영역) : 클라우드 서비스를 사용할 수 있는 국가(지역)
@@ -445,6 +453,8 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br>STS(Security Token Service) : AWS리소스에 대한 액세스를 제어할 수 있는 임시 보안 자격 증명을 생성
 
+<br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
+
 <br>RAID(Redundunt Array of Independent Disk) : 2개이상의 디스크를 병렬로 처리하여 성능 및 안정성을 향상시킴, 디스크 오류나 데이터 손실등 장애 대응을 위한 용도로도 사용할 수 있다.
 <h6>
 &emsp;&emsp;&emsp;&emsp; RAID-0 : 두 개 이상의 디스크에 데이터를 순차적으로 저장하는 방식, 
@@ -465,14 +475,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 <br>SAML(Security Assertion Markup Language) 페더레이션(신뢰가 설정된 도메인의 컬렉션)
 
 <br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
-
-<br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
-
-<br>Fixed IP : 고정 IP, 내부 IP
-
-<br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
-
-<br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
 <br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
 
