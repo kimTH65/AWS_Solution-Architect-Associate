@@ -75,7 +75,7 @@ VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정�
 
 <br>
 
-Global Accelerator :
+Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자 트래픽 전송하여 성능을 개선하는 네트워킹 서비스
 
 <br>
 
