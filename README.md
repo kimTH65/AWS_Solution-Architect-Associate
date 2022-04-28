@@ -128,11 +128,11 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : 모니터링 시스템
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWS 서비스 관찰, 모니터링 시스템
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : 계정에 대한 API 호출 기록
+<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : 사용자 관찰, 계정에 대한 API 호출 기록
 
 <br>
 
@@ -152,8 +152,11 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <h2>애플리케이션</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - 데스크톱을 간편히 프로비저닝(사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비) / 사용자 무제한
+<a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - 데스크톱을 간편히 프로비저닝 / 사용자 무제한
 
+<h6>&emsp;&emsp;&emsp;&emsp;프로비저닝 : 사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비 </h6>
+
+  
 <br> 
 
 <a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - 스토리지 및 공유 서비스 / 무료 평가판 사용자 최대 50명
@@ -263,7 +266,7 @@ QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하�
 
 <a href="https://docs.aws.amazon.com/ko_kr/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 관리형 메시지 브로커 서비스
 
-<h6>&emsp;&emsp;&emsp;&emsp;메시지 브로커(message broker) : </h6>
+<h6>&emsp;&emsp;&emsp;&emsp;메시지 브로커(message broker) :시스템 및 서비스가 서로 간에 통신하고 정보를 교환할 수 있도록 해주는 소프트웨어 </h6>
 
 <hr>
 
