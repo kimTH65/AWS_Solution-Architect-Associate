@@ -229,6 +229,14 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 
 <a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - 데이터 액세스, 변환처리, 데이터의 이동과 변환을 자동화하는 데 사용할 수 있는 웹 서비스
 
+<br>
+
+Athena : 
+
+<br>
+
+QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 시각화 도구 
+
 <hr>
 
 
@@ -250,6 +258,12 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 <br>
 
 <a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - 클라우드 상태 추적, 작업 조정
+
+<br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 관리형 메시지 브로커 서비스
+
+<h6>&emsp;&emsp;&emsp;&emsp;메시지 브로커(message broker) : </h6>
 
 <hr>
 
@@ -326,6 +340,8 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>AWS DMS(Database Migration Service) : DB,DW 등을 쉽게 마이그레이션할 수 있는 클라우드 서비스
 
+<br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
+
 <br><h3>기타</h3>
 
 <br>ECR(Elastic Container Registry) : AWS 관리형 컨테이너 이미지 레지스트리 서비스
@@ -382,8 +398,6 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>ROA(Route Origin Authorization) : 경로 원본 권한 부여
 
-<br>MQ(Message Queue) : 메세지 기반의 미들웨어
-
 <br>AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
 
 <br>Fixed IP : 고정 IP, 내부 IP
@@ -392,15 +406,12 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>ACM(AWS Certificate Management) : AWS 인증서 관리자
 
-<br>SAM : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
+<br>SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
 
 <br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
 <br>AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
 
-<br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
-
-<br>QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 시각화 도구 
 
 <br> ALIAS : 명령어
 
