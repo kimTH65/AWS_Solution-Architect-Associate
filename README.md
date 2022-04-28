@@ -431,8 +431,7 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 <br><h3>기타</h3>
 
 <br>IOPS(Input/Output Operation Per Second) : 초당 입출력 속도
-
-<br>IOPS SSD : 주요 성능 특성이 iops인 ssd
+<h6>&emsp;&emsp;&emsp;&emsp;IOPS SSD = 주요 성능 특성이 iops인 ssd</h6>
 
 <br>ISCSI(Internet Small Computer System Interface) : 컴퓨터 환경에서 데이터 스토리지 시설을 이어주는 IP기반의 스토리지 네트워킹 표준
 <br>IP망을 통해 SCSI 명령을 전달함으로서 인트라넷을 거쳐 데이터 전송을 쉽게하고 먼 거리에 걸쳐 스토리지를 관리하는데 쓰인다.
