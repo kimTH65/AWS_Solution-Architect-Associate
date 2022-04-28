@@ -67,7 +67,7 @@ VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정�
   
 <br>
 
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(CLOUD FRONT)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
 
 <br>
 <a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> - 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
