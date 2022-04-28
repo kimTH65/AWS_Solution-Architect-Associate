@@ -400,7 +400,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 <br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
 
-<br>QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 각화 도구 
+<br>QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 시각화 도구 
 
 <br> ALIAS : 명령어
 
