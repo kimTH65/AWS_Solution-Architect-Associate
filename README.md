@@ -240,6 +240,10 @@ Athena : S3에 저장된 데이터에 쿼리를 날려 간편하게 데이터를
 
 QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 시각화 도구 
 
+<br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 검색기능
+
 <hr>
 
 
@@ -247,10 +251,6 @@ QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하�
 
 
 <h2>앱 서비스</h2>
-
-<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 검색기능
-
-<br>
 
 <a href="https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - 트랙잭션 이메일, 마케팅 메시지 도는 다른 유형의 고품질 콘텐츠, 실시간 엑세스
 
