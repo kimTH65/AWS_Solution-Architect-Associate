@@ -477,6 +477,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br> ALIAS : 명령어
 
-<br> 스팟플릿, 폴링, 스팟 블록, ec2 플릿
+<br> 스팟플릿, 폴링, 스팟 블록, ec2 플릿 
 
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
