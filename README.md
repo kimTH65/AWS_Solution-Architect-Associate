@@ -1,6 +1,6 @@
 # AWS
 
-<h2>컴퓨팅</h2>  
+<h2>컴퓨팅</h2>   
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a>
 
