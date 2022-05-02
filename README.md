@@ -283,7 +283,7 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 &emsp;&emsp;&emsp;&emsp;Kinesis Data Streams : 실시간 데이터 스트림을 캡처/처리/저장/분석해주는 서비스
 <br><br>
 &emsp;&emsp;&emsp;&emsp;Kinesis Data Anlytics : Apache Flink를 사용하여 실시간으로 스트리밍 데이터를 변환하고 분석
-<br><br>  
+<br>  
 &emsp;&emsp;&emsp;&emsp;Kinesis Data Firehose : 데이터 스트림 처리/전송
   
 </h6>
