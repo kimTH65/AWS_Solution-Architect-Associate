@@ -477,6 +477,12 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br> ALIAS : 명령어
 
-<br> 스팟플릿, 폴링, 스팟 블록, ec2 플릿 
+<br> 스팟 플릿 : 사용자가 지정한 기준에 따라 시작되는 스팟 인스턴스의 집합
+
+<br> ec2 플릿 : 인스턴스 유형, AWS 가용 영역, Amazon EC2 용량 등 간편하게 프로비저닝
+
+<br> 스팟 블록 : 스팟 인스턴스
+
+<br> 폴링 : 충돌 회피/동기화 처리 등을 목적으로 상태를 주기적으로 검사하여 일정한 조건을 만족할 때 송수신 등의 자료처리를 하는 방식
 
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
