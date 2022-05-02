@@ -278,7 +278,15 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 <h2>분석</h2>
 
 <a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - 데이터 수집처리, 실시간 처리
+<h6>
 
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Streams : 실시간 데이터 스트림을 캡처/처리/저장/분석해주는 서비스
+<br><br>
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Anlytics : Apache Flink를 사용하여 실시간으로 스트리밍 데이터를 변환하고 분석
+<br><br>  
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Firehose : 데이터 스트림 처리/전송
+  
+</h6>
 <br>
 
 <a href="https://docs.aws.amazon.com/ko_kr/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 활용.
