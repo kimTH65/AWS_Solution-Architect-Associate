@@ -2,15 +2,15 @@
 
 <h2>컴퓨팅</h2>   
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a>
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
 
 <br>
 
-<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a>  - 이벤트 응답으로 코드 실행 
+<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : 이벤트 응답으로 코드 실행 
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> - 서버 자동 증설
+<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : 서버 자동 증설
 
 <br>
  
@@ -71,7 +71,7 @@ VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정�
 
 <br>
 
-<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> - 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
+<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
 
 <br>
 
