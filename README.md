@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : 이벤트 응답으로 코드 실행 
+<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : 서버를 프로비저닝하거나 관리 할 필요가 없는 서버리스 컴퓨팅 서비스
 
 <br>
 
