@@ -14,7 +14,7 @@
 
 <br>
  
-SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구
+SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구 
 
 <hr>
 
