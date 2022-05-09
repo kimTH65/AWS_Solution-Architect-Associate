@@ -103,12 +103,13 @@ Direct Connect : AWS환경과 온프레미스 환경과의 연결을 위한 서�
 
 <h6>&emsp;&emsp;&emsp;&emsp; Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
 
-<br>S3 수명주기 
+<br>&emsp;&emsp;&emsp;&emsp;　S3 수명주기 
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/59690816/167321873-67dc89e2-6c9b-4e9b-b69d-fdb8e7b3efe8.png" width="500" height="350">
-</div>
-<h6>&emsp;&emsp;&emsp;&emsp; 출처 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 
+<h6>출처 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
+</div><br>
 <a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능</h6>
