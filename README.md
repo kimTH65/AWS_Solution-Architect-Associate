@@ -99,12 +99,12 @@ Direct Connect : AWS환경과 온프레미스 환경과의 연결을 위한 서�
 
 <h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
 
+<h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 여러 도메인에서 애플리케이션의 S3 버킷으로의 콘텐츠 액세스를 허용하는 데 사용되는 메커니즘</h6>
+
 <a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(저렴,데이터 아카이빙) 
 
-<h6>&emsp;&emsp;&emsp;&emsp; Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
-
-
-
+<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
+                             
 <div align="center">
 <br><h4>S3 수명주기</h4> 
 <img src="https://user-images.githubusercontent.com/59690816/167321873-67dc89e2-6c9b-4e9b-b69d-fdb8e7b3efe8.png" width="500" height="350">
@@ -471,8 +471,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 <br>NS(Name Server) : 도메인에 대한 정보(A레코드, MX레코드 등)을 가지고 있는 서버
 
 <br>STS(Security Token Service) : AWS리소스에 대한 액세스를 제어할 수 있는 임시 보안 자격 증명을 생성
-
-<br>CORS(Cross-Origin Resource Sharing) : 교차 출처 리소스 공유, 웹은 다른 도메인 이름을 가진 서버의 스크립트를 차단 -> 스크립트 실행을 허용하는 HTTP 헤더를 보내도록 S3 버킷에서 CORS설정 
 
 <br>RAID(Redundunt Array of Independent Disk) : 2개이상의 디스크를 병렬로 처리하여 성능 및 안정성을 향상시킴, 디스크 오류나 데이터 손실등 장애 대응을 위한 용도로도 사용할 수 있다.
 <h6>
