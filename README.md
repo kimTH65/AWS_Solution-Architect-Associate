@@ -503,4 +503,6 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 
 <br> 폴링 : 충돌 회피/동기화 처리 등을 목적으로 상태를 주기적으로 검사하여 일정한 조건을 만족할 때 송수신 등의 자료처리를 하는 방식
 
+<br> 데이터 샤딩(Sharding) : 데이터를 다수의 데이터베이스에 분산하여 저장
+
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
