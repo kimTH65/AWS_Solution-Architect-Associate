@@ -28,7 +28,7 @@ SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하
 
 <br>
 
-ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 Repository 서비스
+ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 Repository 서비스 
 
 <br>
 
