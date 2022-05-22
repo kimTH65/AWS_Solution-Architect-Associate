@@ -119,7 +119,7 @@ Direct Connect : AWS환경과 온프레미스 환경과의 연결을 위한 서�
 
 <a href="https://docs.aws.amazon.com/ko_kr/fsx/?id=docs_gateway">Amazon FSx</a> : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
 
-<br>
+<br> 
 
 <a href="https://docs.aws.amazon.com/ko_kr/efs/latest/ug/whatisefs.html">EFS(Elastic File System)</a> : Linux Server, EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
 
