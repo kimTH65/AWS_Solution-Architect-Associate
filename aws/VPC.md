@@ -123,4 +123,9 @@
 
 <br> 프라이빗 네트워크를 이용한 다른 VPC 웹 서버 접근 방법 : 
 <br> &emsp; &emsp;&emsp; &emsp; EC2 인스턴스 → 인터페이스 엔드포인트 → 프라이빗 링크 →  NLB → 각각의 웹 서버
-<h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결</h6>  
+<h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;프라이빗 링크 : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결</h6>
+<hr>
+
+<h2> VPC Flow Logs </h2> 
+
+<br> VPC IP 트래픽에 대한 정보를 수집하는 기능, CloudWatch로 로그를 수집, 다른 계정과 피어링 중이면 사용할 수 없다.
