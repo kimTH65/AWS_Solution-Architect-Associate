@@ -56,6 +56,16 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 
 <a href="https://aws.amazon.com/ko/route53/">Route53</a> - DNS(Domain Name System)
 
+<h6>
+&emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 현재 위치에서 지연시간(Latency)가 가장 낮은 리전의 IP 주소를 알려줌
+<br><br>
+&emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : 서버 IP 주소 또는, 도메인(ELB)마다 가중치를 부여하는 트래픽을 조절하는 기능
+<br><br>
+&emsp;&emsp;&emsp;&emsp;  DNS Failover : 장애가 발생한 서버의 IP 주소 또는, 도메인(ELB)를 알려주지 않는 기능
+<br><br>
+&emsp;&emsp;&emsp;&emsp;  Geo Routing : 지역별로 다른 IP 주소를 알려줌
+</h6>
+
 <br>
 
 VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
