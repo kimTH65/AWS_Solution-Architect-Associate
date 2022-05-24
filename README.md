@@ -455,7 +455,7 @@ AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 �
 <br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
 
 <br><h3>기타</h3>
-<div style="font-size:5px">
+
 <br>IOPS(Input/Output Operation Per Second) : 초당 입출력 속도
 <h6>&emsp;&emsp;&emsp;&emsp;IOPS SSD = 주요 성능 특성이 iops인 ssd</h6>
 
