@@ -72,7 +72,7 @@ VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정�
 <h6>
 &emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN, AWS VPC환경과 온프레미스 환경의 VPN연결
 <br><br>  
-&emsp;&emsp;&emsp;&emsp;Clinet VPN : 개인이 AWS 서비스나 온프레미스 환경에 접속할 수 있도록 하는 서비스
+&emsp;&emsp;&emsp;&emsp;Clinet VPN : 개인이 AWS 서비스나 온프레미스 환경에 접속할 수 있도록 하는 서비스 
 </h6>
   
 <br>
