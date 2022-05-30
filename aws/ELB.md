@@ -25,4 +25,4 @@
   
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  UDP - 사용자 데이터그램 프로토콜, 빠름, 스트리밍같이 연속성/속도가 중요할 때 사용</h6>
 
-<br> Classic Load Balancer(CLB) : 로드밸런서에 인스턴스를 등록하고 라우팅
+<br> Classic Load Balancer(CLB) : 로드밸런서에 인스턴스를 등록하고 라우팅, 가장 오래된 로드밸런서(현재 잘 안씀)
