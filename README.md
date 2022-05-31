@@ -81,7 +81,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 
 <br>
 
-<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : 데이터 전용선, 온프레미스에서 AWS로 전용 네트워크 연결을 쉽게 설정할 수 있는 클라우드 서비스 솔루션
+<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : 데이터 전용선, AWS환경과 온프레미스 환경과의 연결을 위한 서비스솔루션
 
 <br>
 
@@ -90,10 +90,6 @@ Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자
 <br>
 
 API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지할 수 있는 서비스, Lambda함께 REST Api 생성가능
-
-<br>
-
-Direct Connect : AWS환경과 온프레미스 환경과의 연결을 위한 서비스
 
 <hr>
 
