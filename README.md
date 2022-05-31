@@ -191,6 +191,10 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM</a> - 사용자 계정 및 그룹관리
 
+<h6>
+&emsp;&emsp;&emsp;&emsp;<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM 보안 모범 사례</a> : 루트 사용자 사용 액세스 키 잠금, 역할을 사용하여 권한 위임, 최소 권한 부여 
+</h6>
+
 <br>
 
 <a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWS 서비스 관찰, 모니터링 시스템
