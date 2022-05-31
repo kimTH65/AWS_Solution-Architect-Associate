@@ -68,7 +68,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 
 <br>
 
-VPN : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
 <h6>
 &emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN, AWS VPC환경과 온프레미스 환경의 VPN연결
 <br><br>  
