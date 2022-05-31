@@ -92,9 +92,6 @@
 <br> &emsp; &emsp;&emsp; &emsp; 서브넷은 한가지 NACLs와 연결가능 But NACLs는 여러 서브넷과 연결가능, 
 <br> &emsp; &emsp;&emsp; &emsp; Statelss 성질(요청 정보를 따로 저장하지 않기 때문에 응답하는 트래픽에 대한 필터링을 설정해야함)
 
-<br> Flow logs : VPC의 네트워크 인터페이스로 오가는 IP트래픽에 대한 정보를 캡쳐
-<br> &emsp; &emsp;&emsp; &emsp; Flow logs는 Amazon CloudWatch 로그를 사용하여 저장
-
 <br> 같은 서브넷끼리 통신할 때 : Security Group 정책을 거치면서 통신
 <br> 다른 서브넷끼리 통신할 떄 : NACL 정책을 거친후, Security Group을 거친다
 
@@ -128,4 +125,5 @@
 
 <h2> VPC Flow Logs </h2> 
 
-<br> VPC IP 트래픽에 대한 정보를 수집하는 기능, CloudWatch로 로그를 수집, 다른 계정과 피어링 중이면 사용할 수 없다.
+<br> VPC의 네트워크 인터페이스로 오가는 IP트래픽에 대한 정보를 캡쳐, CloudWatch로 로그를 수집, 다른 계정과 피어링 중이면 사용할 수 없다.
+
