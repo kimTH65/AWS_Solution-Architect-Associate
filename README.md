@@ -177,6 +177,15 @@ AWS Elastic Disaster Recovery(DRS) : 저렴한 스토리지, 최소한의 컴퓨
 <br>
 
 AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌스를 중앙 관리/ 자동화 하는 완전 관리형 정책 기반 서비스
+
+<br>
+
+Cross Region Replication(CRR) : 서르 다른 AWS 리전의 S3 버킷에서 객체 복사
+
+<br>
+
+Simple Region Replication(SRR) : 동일한 리전의 S3 버킷에서 객체 복사하는데 사용
+
 <hr>
 
 
