@@ -12,13 +12,13 @@
 
 <hr>
 <h2>ELB 종류 </h2>
-<br> Applicaiton Load Balancer(ALB) : OSI 7 Layer의 7계층 Applicaiton Layer의 특성을 이용하는 로드밸런서,
+<br> Applicaiton Load Balancer(ALB) : OSI 7 Layer의 7계층 Applicaiton Layer의 특성을 이용하는 로드밸런서, 클라이언트가 서비스를 요청하는 상황일 때
 <br>&emsp;&emsp;&emsp;&emsp; HTTP, HTTPS의 특성을 주로 다룸 -> HTTP의 헤더 정보를 이용해 부하분산을 실시 
 <br>&emsp;&emsp;&emsp;&emsp; SSL 인증서를 탑재할 수 있어 EC2를 대신하 SSL 암호화/ 복호화를 대신 진행
 
 <h6>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  SSL(Secure Sockets Layer) : 보안 프로토콜/ 개인정보 보호, 인증, 무결성을 인터넷 통신에 제공</h6>
 
-<br> Network Load Balancer(NLB) : OSI 7 Layer의 4계층에 해당, 송신자와 수신자의 논리적 연결을 담당,
+<br> Network Load Balancer(NLB) : OSI 7 Layer의 4계층에 해당, 송신자와 수신자의 논리적 연결을 담당, 내부로 들어온 트래픽을 처리하고 내부 인스턴스로 전송할 떄
 <br>&emsp;&emsp;&emsp;&emsp; endpoint(사용자) 간의 연결을 생성하고 데이터를 얼마나 보냈는지,제대로 받았는지 등 확인, TCP/UDP가 대표적
 
 <h6>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  TCP - 데이터의 정확성 확인
