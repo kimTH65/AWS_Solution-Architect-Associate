@@ -18,7 +18,7 @@
 
 <h6>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  SSL(Secure Sockets Layer) : 보안 프로토콜/ 개인정보 보호, 인증, 무결성을 인터넷 통신에 제공</h6>
 
-<br> Network Load Balancer(NLB) : OSI 7 Layer의 4계층에 해당, 송신자와 수신자의 논리적 연결을 담당, 내부로 들어온 트래픽을 처리하고 내부 인스턴스로 전송할 떄
+<br> Network Load Balancer(NLB) : OSI 7 Layer의 4계층에 해당, 송신자와 수신자의 논리적 연결을 담당, 내부로 들어온 트래픽을 처리하고 내부 인스턴스로 전송할 때
 <br>&emsp;&emsp;&emsp;&emsp; endpoint(사용자) 간의 연결을 생성하고 데이터를 얼마나 보냈는지,제대로 받았는지 등 확인, TCP/UDP가 대표적
 
 <h6>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  TCP - 데이터의 정확성 확인
