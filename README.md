@@ -274,6 +274,8 @@ Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이�
 
 <a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
 
+<h6>&emsp;&emsp;&emsp;&emsp;TTL(Time to Live) = 아이템별 타임스탬프를 정의하여 아이템이 더 이상 필요하지 않는 시기를 결정</h6>
+
 <br>
 
 <h3>인 메모리</h3>
