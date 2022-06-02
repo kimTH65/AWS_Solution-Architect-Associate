@@ -180,7 +180,7 @@ AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌�
 
 <br>
 
-Cross Region Replication(CRR) : 서르 다른 AWS 리전의 S3 버킷에서 객체 복사
+Cross Region Replication(CRR) : 서로 다른 AWS 리전의 S3 버킷에서 객체 복사
 
 <br>
 
