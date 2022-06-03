@@ -236,6 +236,10 @@ WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전
 
 <br>
 
+MFA(Multi-Factor Authentication) : 2단계 인증/OTP같은 것, Cognito 사용자 풀에 MFA 추가해서 사용함
+
+<br>
+
 AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선하는 관리형 위협 방지 서비스
 
 <hr>
