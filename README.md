@@ -268,7 +268,7 @@ AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선
 
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redishift</a> - DW, 페타규모
+<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redshift</a> - DW로 빠르게 데이터 쿼리, 페타규모
 
 <h6>&emsp;&emsp;&emsp;&emsp;DW(데이터 웨어 하우스) = 사용자의 의사 결정에 도움줌, 기간시스템의 DB에 축척된 데이터를 공통형식으로 변환후 관리하는 DB</h6>
 
