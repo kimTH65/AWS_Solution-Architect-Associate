@@ -166,6 +166,14 @@ AWS Storage Gateway : 온프레미스에서 거의 무제한의 스토리지에 
 
 AWS Transfer Family : SFTP,FTPS 및 FTP 프로토콜을 사용하여 S3/EFS로 간단하고 원활하게 파일을 전송
 
+<h6>
+&emsp;&emsp;&emsp;&emsp;Transfer Acceleration : 클라이언트와 S3간 파일 쉽고 안전하게 장거리 전송
+</h6>
+
+<br>
+
+AWS Multipart Upload : 대형 객체를 나누어 업로드, 기존 객체의 복사본 
+
 <br>
 
 AWS Elastic Disaster Recovery(DRS) : 저렴한 스토리지, 최소한의 컴퓨팅/특정 시점 복구로 빠르고 안정적으로 데이터 복구
