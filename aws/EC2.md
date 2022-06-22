@@ -4,8 +4,7 @@
 
 <h3>기본 사항</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경,
-<br>&emsp;&emsp;&emsp;&emsp;AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
+<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경 / AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
 <h6>
 &emsp;&emsp;&emsp;&emsp;PV(반가상화) AMI : guest OS가 Hypervisor(가상머신을 생성하고 실행하는 프로세스)를 통해 Hardware를 제어
 <br><br>
