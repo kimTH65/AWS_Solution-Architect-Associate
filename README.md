@@ -12,7 +12,7 @@
 
 <a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : 서버 자동 증설
 
-<br>
+<br> 
  
 SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구 
 
