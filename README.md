@@ -4,7 +4,7 @@
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
  
-<br>
+<br> 
 
 <a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : 서버를 프로비저닝하거나 관리 할 필요가 없는 서버리스 컴퓨팅 서비스
 
