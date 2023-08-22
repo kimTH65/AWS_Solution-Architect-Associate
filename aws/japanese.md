@@ -486,7 +486,7 @@ AppSync : DynamoDB,Lambda など接続後のGraphQL(クエリ言語)API開発を
 
 <br>AWS ADS(Application Discovery Service):サーバー仕様情報、ハードウェア構成、性能、実行プロセス、ネットワーク接続情報などを収集し、データセンターサーバーの現在の状態に対するスナップショットを確保できるよう支援/情報探索後に収集した情報への移行プロジェクトを計画するのに役立つ
 
-<br>r><h3>IP</h3>
+<br><h3>IP</h3>
 
 <br>ROA(Route Origin Authorization):顧客が特定自律システムでIP通知を認証するためにRIRで生成したオブジェクト
 
