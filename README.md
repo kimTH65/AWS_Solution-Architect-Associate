@@ -7,6 +7,7 @@ Language
 &emsp;
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
 </h5>
+<hr>
 <h2>컴퓨팅(Computing)</h2>   
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
