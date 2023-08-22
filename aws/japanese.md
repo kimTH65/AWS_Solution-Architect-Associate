@@ -371,23 +371,23 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>앱 서비스</h2>
+<h2>アプリ·サービス</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - 트랙잭션 이메일, 마케팅 메시지 도는 다른 유형의 고품질 콘텐츠, 실시간 엑세스
-
-<br>
-
-<a href="https://docs.aws.amazon.com/ko_kr/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html">Simple Queue Service(SQS)</a> - 메세지 손실 없이 모든 처리량 수준에서 어떤 데이터 볼륨도 전송, 1개 보증 But 추가 데이터 처리 보장 X, FIFO
+<a href="https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - トラックの電子メール、マーケティング メッセージは、異なるタイプの高品質コンテンツ、リアルタイムアクセス
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - 클라우드 상태 추적, 작업 조정
+<a href="https://docs.aws.amazon.com/ko_kr/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html">Simple Queue Service(SQS)</a> - メッセージ損失なしにすべてのスループットレベルでどのデータボリュームも送信、1つの保証But追加データ処理保障X、FIFO
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 관리형 메시지 브로커 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - クラウドステータスの追跡、作業調整
 
-<h6>&emsp;&emsp;&emsp;&emsp;메시지 브로커(message broker) :시스템 및 서비스가 서로 간에 통신하고 정보를 교환할 수 있도록 해주는 소프트웨어 </h6>
+<br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 管理型メッセージブローカーサービス
+
+<h6>&emsp;&emsp;&emsp;&emsp;メッセージブローカー(message broker) : システムとサービスが互いに通信し、情報を交換できるようにするソフトウェア </h6>
 
 <hr>
 
@@ -395,39 +395,38 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>배포 및 관리</h2>
+<h2>配布および管理</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/opsworks/latest/userguide/welcome.html">OpsWorks</a> - 애플리케이션 구성과 배포 자동화 / 애플리케이션 관리 솔루션 , Puppet/Chef 레시피 및 Bash 스크립트를 사용해 코드로 구성
-
+<a href="https://docs.aws.amazon.com/ko_kr/opsworks/latest/userguide/welcome.html">OpsWorks</a> - アプリケーション構成と配布自動化/アプリケーション管理ソリューション、Puppet/ChefレシピおよびBashスクリプトを使用してコード構成
 <h6>
-&emsp;&emsp;&emsp;&emsp; Chef : 오픈소스 시스템 관리 프레임워크, 서버 인프라구축 자동화
+&emsp;&emsp;&emsp;&emsp; Chef : オープンソースシステム管理フレームワーク、サーバインフラ構築自動化
 <br><br>
-&emsp;&emsp;&emsp;&emsp; Puppet : 시스템 서버관리 프레임 워크
+&emsp;&emsp;&emsp;&emsp; Puppet : システムサーバ管理フレームワーク
 </h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSCloudFormation/latest/UserGuide/Welcome.html">CloudFormaiton</a> - 리소스 템플릿 생성 / 템플릿 및 연관된 리소스 모음(스택)을 배포 및 업데이트
+<a href="https://docs.aws.amazon.com/ko_kr/AWSCloudFormation/latest/UserGuide/Welcome.html">CloudFormaiton</a> - リソーステンプレートの作成 / テンプレートおよび関連するリソースコレクション(スタック)を配布および更新
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/Welcome.html">Elastic Beanstalk</a> - 애플리케이션 자동 배포 처리 및 규모 조정
+<a href="https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/Welcome.html">Elastic Beanstalk</a> - アプリケーションの自動配布処理と規模調整
 
 <br>
 
 <div align="center">
-<h3>비교</h3>
+<h3>比較.</h3>
 <h6>
-편리함 = 1. Elastic Beanstalk(모든 형태 자동화)&emsp;2.OpsWorks(Chef/Puppet이해 필요)&emsp;3. CloudFormaiton
+便利=1. Elastic Beanstalk(全形態自動化)&emsp;2.OpsWorks(Chef/Puppet理解必要)&emsp;3. CloudFormaiton
 <br><br>
-자유도(세세한 설정가능) = 1.CloudFormaiton&emsp;2.OpsWorks&emsp;3.Elastic Beanstalk
+自由度(詳細設定可能) = 1.Cloud Formaiton &emsp; 2.Ops Works &emsp; 3.Elastic Beanstalk
 </h6>
 </div>
 <br>
 
-<h3>개발자 도구</h3>
+<h3>開発者ツール</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2인스턴스, 온프레미스 인스턴스, 서버리스 Lambda 함수 등의 서비스로 애플리케이션 배포를 자동화하는 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2インスタンス、オンプレミスインスタンス、サーバレスLambda関数などのサービスでアプリケーション配布を自動化するサービス
 
 <hr>
 
@@ -435,17 +434,17 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>모바일 서비스</h2>
+<h2>モバイル·サービス</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 알림을 스마트폰으로 푸시
-
-<br>
-
-Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
+<a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 通知をスマホでプッシュ
 
 <br>
 
-AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
+Mobile Analytics - モバイル分析、レポート/Cognitoと統合される
+
+<br>
+
+AppSync : DynamoDB,Lambda など接続後のGraphQL(クエリ言語)API開発を容易にする完全管理型サービス
 
 <hr>
 
