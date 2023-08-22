@@ -61,7 +61,7 @@ EKS(Elastic Kubernetes Service)　:　Kubernetesを簡単に実行できる管�
 <h6>
 &emsp; &emsp; &emsp; Latency Based Routing : 現在位置で遅延時間(Latency)が最も低いリージョンのIPアドレスを知らせる
 <br><br>
-&emsp;&emsp;&emsp; &emsp; Weighted Round Robin : サーバーIPアドレスまたはドメイン(ELB)ごとに重み付けされるトラフィックを調節する機能
+&emsp; &emsp; &emsp; Weighted Round Robin : サーバーIPアドレスまたはドメイン(ELB)ごとに重み付けされるトラフィックを調節する機能
 <br><br>
 &emsp; &emsp; &emsp; DNS Failover:障害が発生したサーバのIP アドレスまたはドメイン（ELB）を知らせない機能
 <br><br>
