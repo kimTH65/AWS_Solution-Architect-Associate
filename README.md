@@ -1,7 +1,9 @@
-# AWS
-
+# AWS　
+<h5>　
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
+<a href="https://github.com/kimTH65/AWS/blob/main/README.md">한국어</a> 
+</h5>
 <h2>컴퓨팅(Computing)</h2>   
-
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
 
