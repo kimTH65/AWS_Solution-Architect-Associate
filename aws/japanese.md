@@ -14,7 +14,7 @@ Language
 
 <br>  
 
-<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : サーバーをプロビジョニングしたり管理したりする必要がないサーバーレスコンピューティングサービス
+<a href="https://aws.amazon.com/ja/lambda/faqs/">Lambda </a> : サーバーをプロビジョニングしたり管理したりする必要がないサーバーレスコンピューティングサービス
 
 <br>
 
@@ -62,7 +62,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <br>
 
-<a href="https://aws.amazon.com/ko/route53/">Route53</a> - DNS(Domain Name System)
+<a href="https://aws.amazon.com/ja/route53/">Route53</a> - DNS(Domain Name System)
 
 <h6>
 &emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 現在位置で遅延時間(Latency)が最も低いリージョンのIPアドレスを知らせる
@@ -85,11 +85,11 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
   
 <br>
 
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : コンテンツ配信ネットワーク=分散した複数のサーバ/atm機のような感じ、全世界に53のストレージあり
+<a href="https://aws.amazon.com/ja/cloudfront/">CDN(Cloud Front)</a> : コンテンツ配信ネットワーク=分散した複数のサーバ/atm機のような感じ、全世界に53のストレージあり
 
 <br>
 
-<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> :データ専用線、AWS環境とオンプレミス環境との接続のためのサービスソリューション
+<a href="https://aws.amazon.com/ja/directconnect/?nc1=h_ls">Direct Connect</a> :データ専用線、AWS環境とオンプレミス環境との接続のためのサービスソリューション
 
 <br>
 
@@ -109,13 +109,13 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 
 <h3>ストレージの種類</h3>
 
-<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 一般)
+<a href="https://aws.amazon.com/ja/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 一般)
 
 <h6>&emsp;&emsp;&emsp;&emsp;バケット(Bucket) : 3 で生成できる最上位ディレクトリの概念、名前はS3 リージョンの中で唯一でなければならない </h6>
 
 <h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 複数のドメインからアプリケーションのS3バケットへのコンテンツアクセスを許可するために使用されるメカニズム</h6>
 
-<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(安価、データアーカイブ) 
+<a href="https://aws.amazon.com/ja/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(安価、データアーカイブ) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : ボルトロックポリシーを使用してGlacierの各資格証明集について規定管理が可能。ロック可能</h6>
                              
@@ -125,7 +125,7 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 
 <h6>出処 : https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 </div><br>
-<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
+<a href="https://aws.amazon.com/ja/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : EBSスナップショット及び削除予約可能</h6>
 
