@@ -50,7 +50,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>네트워킹(Networking)</h2>
+<h2>ネットワーキング(Networking)</h2>
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 
@@ -63,27 +63,27 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 <a href="https://aws.amazon.com/ko/route53/">Route53</a> - DNS(Domain Name System)
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 현재 위치에서 지연시간(Latency)가 가장 낮은 리전의 IP 주소를 알려줌
+&emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 現在位置で遅延時間(Latency)が最も低いリージョンのIPアドレスを知らせる
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : 서버 IP 주소 또는, 도메인(ELB)마다 가중치를 부여하는 트래픽을 조절하는 기능
+&emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : サーバーIPアドレスまたはドメイン(ELB)ごとに加重値を付与するトラフィックを調節する機能
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  DNS Failover : 장애가 발생한 서버의 IP 주소 또는, 도메인(ELB)를 알려주지 않는 기능
+&emsp;&emsp;&emsp;&emsp;  DNS Failover : 障害が発生したサーバのIP アドレスまたは、 ドメイン(ELB)を知らせない機能
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  Geo Routing : 지역별로 다른 IP 주소를 알려줌
+&emsp;&emsp;&emsp;&emsp;  Geo Routing : 地域別に異なるIPアドレスを教える
 </h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : ネットワークとネットワーク間のセキュリティ接続を設定するサービス
 <h6>
-&emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN, AWS VPC환경과 온프레미스 환경의 VPN연결
+&emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN、AWS VPC環境とオンプレミス環境のVPN接続
 <br><br>  
-&emsp;&emsp;&emsp;&emsp;Clinet VPN : 개인이 AWS 서비스나 온프레미스 환경에 접속할 수 있도록 하는 서비스 
+&emsp;&emsp;&emsp;&emsp;Clinet VPN : 個人がAWSサービスやオンプレミス環境に接続できるようにするサービス 
 </h6>
   
 <br>
 
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : コンテンツ配信ネットワーク=分散した複数のサーバ/atm機のような感じ、全世界に53のストレージあり
 
 <br>
 
