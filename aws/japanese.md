@@ -85,7 +85,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
   
 <br>
 
-<a href="https://aws.amazon.com/ja/cloudfront/">CDN(Cloud Front)</a> : コンテンツ配信ネットワーク=分散した複数のサーバ/atm機のような感じ、全世界に53のストレージあり
+<a href="https://aws.amazon.com/jp/cloudfront/?nc1=h_ls">CDN(Cloud Front)</a> : コンテンツ配信ネットワーク=分散した複数のサーバ/atm機のような感じ、全世界に53のストレージあり
 
 <br>
 
