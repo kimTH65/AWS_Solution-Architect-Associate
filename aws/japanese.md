@@ -109,13 +109,13 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 
 <h3>ストレージの種類</h3>
 
-<a href="https://aws.amazon.com/ja/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 一般)
+<a href="https://aws.amazon.com/jp/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 一般)
 
 <h6>&emsp;&emsp;&emsp;&emsp;バケット(Bucket) : 3 で生成できる最上位ディレクトリの概念、名前はS3 リージョンの中で唯一でなければならない </h6>
 
 <h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 複数のドメインからアプリケーションのS3バケットへのコンテンツアクセスを許可するために使用されるメカニズム</h6>
 
-<a href="https://aws.amazon.com/ja/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(安価、データアーカイブ) 
+<a href="https://aws.amazon.com/jp/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(安価、データアーカイブ) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : ボルトロックポリシーを使用してGlacierの各資格証明集について規定管理が可能。ロック可能</h6>
                              
