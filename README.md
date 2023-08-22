@@ -1,6 +1,6 @@
 # AWS
 
-<h2>Computing</h2>   
+<h2>컴퓨팅(Computing)</h2>   
 
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">
@@ -24,7 +24,7 @@ SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>Container </h2>  
+<h2>컨테이너(Container)</h2>  
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Docker 컨테이너 관리 서비스
 
@@ -46,7 +46,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>Networking</h2>
+<h2>네트워킹(Networking)</h2>
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 
