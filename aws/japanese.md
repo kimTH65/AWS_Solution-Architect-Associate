@@ -1,8 +1,6 @@
 # AWS
 <h5>　
-<a href="https://github.com/kimTH65/AWS/blob/main/README.md">한국어</a> 
-&emsp;
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
+<a href="https://github.com/kimTH65/AWS/blob/main/README.md">한국어</a> &emsp;<a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
 </h5>
 <h2>コンピューティング(Computing)</h2>   
 
