@@ -17,7 +17,7 @@ Language
 
 <br>  
 
-<a href="https://aws.amazon.com/jp/lambda/faqs/?nc1=h_ls">Lambda </a> : 서버를 프로비저닝하거나 관리 할 필요가 없는 서버리스 컴퓨팅 서비스
+<a href="https://aws.amazon.com/ko/lambda/faqs/?nc1=h_ls">Lambda </a> : 서버를 프로비저닝하거나 관리 할 필요가 없는 서버리스 컴퓨팅 서비스
 
 <br>
 
