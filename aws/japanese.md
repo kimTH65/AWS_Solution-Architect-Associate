@@ -89,7 +89,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <br>
 
-<a href="https://aws.amazon.com/ja/directconnect/?nc1=h_ls">Direct Connect</a> :データ専用線、AWS環境とオンプレミス環境との接続のためのサービスソリューション
+<a href="https://aws.amazon.com/jp/directconnect/?nc1=h_ls">Direct Connect</a> :データ専用線、AWS環境とオンプレミス環境との接続のためのサービスソリューション
 
 <br>
 
