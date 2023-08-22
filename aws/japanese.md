@@ -125,7 +125,7 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 
 <h6>出処 : https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 </div><br>
-<a href="https://aws.amazon.com/ja/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
+<a href="https://aws.amazon.com/jp/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : EBSスナップショット及び削除予約可能</h6>
 
