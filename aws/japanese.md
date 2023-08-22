@@ -1,22 +1,22 @@
 # AWS
 
-<h2>컴퓨팅(Computing)</h2>   
+<h2>コンピューティング(Computing)</h2>   
 
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : クラウドコンピューティングサービス
 
 
 <br>  
 
-<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : 서버를 프로비저닝하거나 관리 할 필요가 없는 서버리스 컴퓨팅 서비스
+<a href="https://aws.amazon.com/ko/lambda/faqs/">Lambda </a> : サーバーをプロビジョニングしたり管理したりする必要がないサーバーレスコンピューティングサービス
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : 서버 자동 증설
+<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : サーバー自動増設
 
 <br> 
  
-SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구 
+SAM(Serverless Application Model) : サーバレスアプリケーションをビルドするための配布ツール
 
 <hr>
 
@@ -24,20 +24,20 @@ SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>컨테이너(Container)</h2>  
+<h2>コンテナ(Container)</h2>  
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Docker 컨테이너 관리 서비스
-
-<br>
-
-ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 Repository 서비스 
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Dockerコンテナ管理サービス
 
 <br>
 
-EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 하는 관리형 서비스
+ECR(Elastic Container Registry) : Dockerコンテナイメージを保存するRepositoryサービス 
+
+<br>
+
+EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型サービス
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;  Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
+&emsp;&emsp;&emsp;&emsp;  Kubernetes : 複数のコンテナ(Docker)を管理するサービス
 </h6>
 
 <hr>
