@@ -452,106 +452,105 @@ AppSync : DynamoDB,Lambda など接続後のGraphQL(クエリ言語)API開発を
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>용어 및 기타 </h2>
+<h2>用語その他</h2>
 
-<h3>클라우드 컴퓨팅 모델</h3>
+<h3>クラウドコンピューティングモデル</h3>
 
-<br>IaaS : 서비스로서의 인프라, 클라우드 IT의 기본 구성요소
+<br>IaaS:サービスとしてのインフラ、クラウドITの基本構成要素
 
-<br>PaaS : 서비스로서의 플랫폼, 기본 인프라 관리할 필요 없음, 애플리케이션 배포 및 관리에 집중
+<br>PaaS:サービスとしてのプラットフォーム、基本インフラ管理不要、アプリケーションの配布·管理に集中
 
-<br>SaaS : 서비스로서의 소프트웨어, 서비스 공급자가 운영하고 관리하는 완제품 제공
+<br>SaaS:サービスとしてのソフトウェア、サービスプロバイダが運営·管理する完成品の提供
 
-<br><h3>암호화 및 PKI(Public Key Infrastructure)</h3>
+<br><h3>暗号化およびPKI(Public Key Infrastructure)</h3>
 
-<br>SSE-S3 : Amazon S3 관리형 키를 사용한 서버측 암호화, 가장 강력한 블록 암호(AES-256)사용하여 데이터 암호화
+<br>SSE-S3 : Amazon S3 管理型鍵を使ったサーバ側暗号化、最も強力なブロック暗号(AES-256)を使用してデータ暗号化
 
-<br>SSE-KMS : AWS Key Management Service에 저장된 KMS키를 사용한 서버 측 암호화
+<br>SSE-KMS : AWS Key Management サービスに保存されたKMSキーを使用したサーバ側暗号化
 
-<br>SSE-C : 고객 제공 키를 사용한 서버 측 암호화, 사용자가 암호화 키 관리
+<br>SSE-C:顧客提供キーを使用したサーバ側暗号化、ユーザが暗号化キー管理
 
-<br>ACM(AWS Certificate Manager) : AWS 인증서 관리자
+<br>ACM(AWS Certificate Manager):AWS認証書管理者
 
-<br>Cloud HSM : 관리형 하드웨어 보안 모듈로 암호화된 키 스토리지 제공
+<br>Cloud HSM:管理型ハードウェアセキュリティモジュールで暗号化されたキーストレージを提供
 
 <br><h3>Migration</h3>
 
-<br>AWS SMS(Server Migration Service) : VMware,Azure등의 가상 머신을 AWS 클라우드로 마이그레션하는 것을 자동화
+<br>AWS SMS(Server Migration Service):VMware、Azureなどの仮想マシンをAWSクラウドにマイグレーションすることを自動化
 
-<br>AWS MGN(Application Migration Service) : Lift and Shift 마이그레이션에 권장되는 기본 마이그레이션 서비스
+<br>AWS MGN(Application Migration Service) : Lift and Shift マイグレーションに推奨される基本移行サービス
 
-<h6>&emsp;&emsp;&emsp;&emsp;Lift and Shift : 애플리케이션을 클라우드로 마이그레이션 하는 방식 중 하나</h6>
+<h6> &emsp; &emsp; &emsp; Lift and Shift : アプリケーションをクラウドに移行する方式の一つ </h6>
 
-<br>AWS DMS(Database Migration Service) : DB,DW 등을 쉽게 마이그레이션할 수 있는 클라우드 서비스
+<br>AWS DMS(Database Migration Service):DB、DWなどを簡単に移行できるクラウドサービス
 
-<br>AWS ADS(Application Discovery Service) : 서버 사양 정보, 하드웨어 구성, 성능,실행 프로세스,네트워크 연결 정보등 수집하여 데이터 센터 서버의 현재 상태에 대한 스냅샷을 확보하도록 지원/ 정보 탐색후 수집한 정보로 마이그레이션 프로젝트를 계획하는데 도움을 줌
+<br>AWS ADS(Application Discovery Service):サーバー仕様情報、ハードウェア構成、性能、実行プロセス、ネットワーク接続情報などを収集し、データセンターサーバーの現在の状態に対するスナップショットを確保できるよう支援/情報探索後に収集した情報への移行プロジェクトを計画するのに役立つ
 
-<br><h3>IP</h3>
+<br>r><h3>IP</h3>
 
-<br>ROA(Route Origin Authorization) : 고객이 특정 자율 시스템에서 IP 알림을 인증하기 위해 RIR에서 생성한 객체
+<br>ROA(Route Origin Authorization):顧客が特定自律システムでIP通知を認証するためにRIRで生成したオブジェクト
 
-<br>Fixed IP : 고정 IP, 내부 IP
+<br>FixedIP:固定IP、内部IP
 
-<br>Floating IP : 유동적 IP, 클라우드 내에서 가상머신이 인터넷과 외부망에 접근하기 위해 배정 받는 IP
+<br>Floating IP:流動的IP、 クラウド内で仮想マシンがインターネットと外部ネットワークにアクセスするために割り当てられるIP
 
-<br><h3>기타</h3>
+<br><h3>その他</h3>
 
-<br>IOPS(Input/Output Operation Per Second) : 초당 입출력 속도
-<h6>&emsp;&emsp;&emsp;&emsp;IOPS SSD = 주요 성능 특성이 iops인 ssd</h6>
+<br>IOPS(Input/Output Operation Per Second):毎秒入出力速度
+<h6> &emsp; &emsp; &emsp; IOPS SSD=主な性能特性がipsであるssd</h6>
 
-<br>ISCSI(Internet Small Computer System Interface) : 컴퓨터 환경에서 데이터 스토리지 시설을 이어주는 IP기반의 스토리지 네트워킹 표준
-<br>IP망을 통해 SCSI 명령을 전달함으로서 인트라넷을 거쳐 데이터 전송을 쉽게하고 먼 거리에 걸쳐 스토리지를 관리하는데 쓰인다.
+<br>ISCSI(Internet Small Computer System Interface):コンピュータ環境でデータストレージ施設をつなぐIPベースのストレージネットワーキング標準
+<br>IP網を通じてSCSI命令を伝達することで、イントラネットを経てデータ伝送を容易にし、遠い距離にわたってストレージ管理を行うのに 使われる。
 
-<br>이더넷(LAN에서 사용) - 인터넷 - 인트라넷(인터넷과 비슷하지만 폐쇠적)
+<br>イーザネット(LANで使用) - インターネット - イントラネット(インターネットと似ているが廃衰的)
 
-<br>정적 콘텐츠(누가 언제 서버에 요청하더라도 같은 내용을 보여줌) / 동적 콘텐츠(누가,언제,어떻게 서버에 요청 하냐에 따라 다른 내용을 보여줌) 
+<br>静的コンテンツ(誰がいつサーバに要請しても同じ内容を表示する)/動的コンテンツ(誰が、いつ、どのようにサーバに要請するかによって異なる内容を表示する) 
 
-<br>File Server란 : OS에 따라 Windows 파일서버, Unix 파일서버, Linux 파일서버가 있음
-<br>&emsp;&emsp;&emsp;&emsp; Windows 파일서버는 CIFS(Common Internet File System)을 사용해서 클라이언트에 스토리지 공유
-<br>&emsp;&emsp;&emsp;&emsp; Unix나 Linux는 NFS(Network File System)을 사용
+<br>File Serverとは:OSによってはWindowsファイルサーバ、Unixファイルサーバ、Linuxファイルサーバがある
+<br> &emsp; &emsp; &emsp; Windows ファイルサーバーはCIFS (Common Internet File System) を使用してクライアントにストレージ共有
+<br>&emsp;&emsp;&emsp;&emsp; Unix나 Linux는 NFS(NetworkFile System)を使用
 
-<br>OLTP(OnLine Transaction Processing) : 온라인 트랜잭션 처리, 네트워크 상의 온라인 사용자들의 Database에 대한 일괄 트랜잭션 처리
+<br>OLTP(OnLine Transaction Processing):オンライントランザクション処理、ネットワーク上のオンラインユーザのDatabaseに対する一括トランザクション処理
 
-<h6>&emsp;&emsp;&emsp;&emsp;트랜잭션 : 데이터베이스의 상태를 변화시키기 위해 수행하는 작업의 단위</h6>
+<h6> &emsp; &emsp; &emsp; トランザクション:データベースの状態を変化させるために行う作業の単位</h6>
 
-<br>OLAP(OnLine Analytical Processing) : 데이터 웨어하우스 등의 시스템과 연관되어 Data를 분석, 정보를 분석/모델링 하게 하는 분석 방법
+<br>OLAP(OnLine Analytical Processing):データウェアハウスなどのシステムに関連してデータを分析、情報を分析/モデリングさせる分析方法
 
-<br>NS(Name Server) : 도메인에 대한 정보(A레코드, MX레코드 등)을 가지고 있는 서버
+<br>NS(Name Server):ドメインに関する情報(Aレコード、MXレコードなど)を持っているサーバ
 
-<br>STS(Security Token Service) : AWS리소스에 대한 액세스를 제어할 수 있는 임시 보안 자격 증명을 생성
+<br>STS(Security Token Service):AWSリソースへのアクセスを制御できる一時的なセキュリティ資格証明を生成
 
-<br>RAID(Redundunt Array of Independent Disk) : 2개이상의 디스크를 병렬로 처리하여 성능 및 안정성을 향상시킴, 디스크 오류나 데이터 손실등 장애 대응을 위한 용도로도 사용할 수 있다.
+<br>RAID(Redundunt Array of Independent Disk):2つ以上のディスクを並列に処理して性能および安定性を向上させる、ディスクエラーやデータ損失など障害対応のための用途にも使用できる。
 <h6>
-&emsp;&emsp;&emsp;&emsp; RAID-0 : 두 개 이상의 디스크에 데이터를 순차적으로 저장하는 방식, 
-<br>&emsp;&emsp;&emsp;&emsp; 하나의 디스크에 문제가 생기면 모든데이터 유실, 오직 성능향상을 위한 방식
+&emsp; &emsp; &emsp; RAID-0 : 2つ以上のディスクにデータを順次保存する方式、 
+<br> &emsp; &emsp; &emsp; 一つのディスクに問題が発生すると、すべてのデータ流失、ただ性能向上のための方式
   
-<br>&emsp;&emsp;&emsp;&emsp; RAID-1 : 데이터 처리 시, 동일한 디스크에 똑같이 저장하는 방식, 복구/안정성 높음, 용량 반으로 줄어듬
+<br> &emsp; &emsp; &emsp; RAID-1 : データ処理時、同じディスクに同じように保存する方式、復旧/安定性が高い、容量が半分に減る
 
-<br>&emsp;&emsp;&emsp;&emsp; RAID-3,4 :0과 같이 분산처리방식 + 에러 체크 및 수정을 위한 패리티(parity)정보를 별도 디스크에 저장
+<br> &emsp; &emsp; &emsp; RAID-3, 4:0 のように分散処理方式+エラーチェック及び修正のためのパリティ情報を別途ディスクに保存
 
-<br>&emsp;&emsp;&emsp;&emsp; RAID-5 : 분산 에러처리 / RAID-6 : 패리티, 최소 4개 이상의 하드 2개 까지 커버 
+<br>&emsp;&emsp;&emsp;&emsp;RAID-5:分散エラー処理 / RAID-6:パリティ、最低4つ以上のハード2つまでカバー 
 
-<br>&emsp;&emsp;&emsp;&emsp; RAID-10 : 우선 미러링 그후 스트리핑, 디스크 4개중 2개씩 미러링/스터리핑
+<br> &emsp; &emsp; &emsp; RAID-10:まずミラーリングその後、ストリッピング、ディスク4つのうち2つずつミラーリング/スターリーピング
   
 </h6>
 
-<br>SAML(Security Assertion Markup Language) 페더레이션(신뢰가 설정된 도메인의 컬렉션)
+<br>SAML(Security Assertion Markup Language)フェデレーション(信頼が設定されたドメインのコレクション)
 
-<br>192.168.0.1 -> A레코드 -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
+<br>192.168.0.1 -> Aレコード -> dev.blog.co.kr -> CNAME ->dev.plusblog.co.kr 
 
-<br> ALIAS : 명령어
+<br>ALIAS:コマンド
 
-<br> SCP = 조직, OU = 조직 단위
+<br>SCP=組織·OU=組織単位
 
-<br> 스팟 플릿 : 사용자가 지정한 기준에 따라 시작되는 스팟 인스턴스의 집합
+<br>スポットフリート:ユーザーが 指定した基準に従って開始されるスポットインスタンスの集合
 
-<br> ec2 플릿 : 인스턴스 유형, AWS 가용 영역, Amazon EC2 용량 등 간편하게 프로비저닝
+<br>ec2フリート:インスタンスタイプ、AWS可用領域、Amazon EC2容量など手軽にプロビジョニング
 
-<br> 스팟 블록 : 스팟 인스턴스
+<br>スポットブロック:スポットインスタンス
 
-<br> 폴링 : 충돌 회피/동기화 처리 등을 목적으로 상태를 주기적으로 검사하여 일정한 조건을 만족할 때 송수신 등의 자료처리를 하는 방식
+<br>ポーリング:衝突回避/同期化処理などを目的に状態を周期的に検査し、一定の条件を満たす時に送受信などの資料処理を行う方式
 
-<br> 데이터 샤딩(Sharding) : 데이터를 다수의 데이터베이스에 분산하여 저장
+<br>データシャーディング(Sharding):データを多数のデータベースに分散して保存
 
 <br>Exam Topics : https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c02/
-
