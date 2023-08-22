@@ -252,16 +252,16 @@ AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改�
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>애플리케이션</h2>
+<h2>アプリケーション</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - 데스크톱을 간편히 프로비저닝 / 사용자 무제한
+<a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - デスクトップを手軽にプロビジョニング / ユーザー無制限
 
-<h6>&emsp;&emsp;&emsp;&emsp;프로비저닝 : 사용자 요구에 맞게 자원 할당, 배치, 배포 해두고 즉시 사용 가능하게 준비 </h6>
+<h6>&emsp;&emsp;&emsp;&emsp;プロビジョニング: ユーザーのニーズに合わせてリソース割り当て、配置、配布しておいて、すぐに使用できるように準備 </h6>
 
   
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - 스토리지 및 공유 서비스 / 무료 평가판 사용자 최대 50명
+<a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - ストレージおよび共有サービス / 無料トライアルユーザー最大50名
 
 <hr>
 
@@ -269,54 +269,54 @@ AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改�
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>데이터베이스</h2>
-<h3>관계형 데이터베이스</h3>
+<h2>データベース.</h2>
+<h3>リレーショナルデータベース</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 관계형 DB, Mysql, Oracle 등
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 関係型DB、Mysql、Oracleなど
 
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redshift</a> - DW로 빠르게 데이터 쿼리, 페타규모
+<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redshift</a> - DWで素早くデータクエリ、ペタ規模
 
-<h6>&emsp;&emsp;&emsp;&emsp;DW(데이터 웨어 하우스) = 사용자의 의사 결정에 도움줌, 기간시스템의 DB에 축척된 데이터를 공통형식으로 변환후 관리하는 DB</h6>
-
-<br>
-
-Aurora : MySQL 및 PostgreSQL과 호환되는 완전 관리형 관계형 데이터베이스 엔진
+<h6>&emsp;&emsp;&emsp;&emsp;DW（データウェアハウス）=ユーザの意思決定に役立つ、基幹システムのDBに縮尺されたデータを共通形式に変換して管理するDB</h6>
 
 <br>
 
-<h3>키-값(NoSQL)</h3>
-
-<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSD 사용 빠름 , Qos(Quality of Service) 자동으로 최적화
-
-<h6>&emsp;&emsp;&emsp;&emsp;TTL(Time to Live) = 아이템별 타임스탬프를 정의하여 아이템이 더 이상 필요하지 않는 시기를 결정</h6>
+Aurora : MySQLおよびPostgreSQLと互換性のある完全管理型関係型データベースエンジン
 
 <br>
 
-<h3>인 메모리</h3>
+<h3>キー値(NoSQL)</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElastiCache</a> - 캐시 클러스터, 두가지 메모리 엔진 지원(Redis/Memcached)
+<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSDの使いやすさ、Qos(Quality of Service)自動的に最適化
+
+<h6>&emsp;&emsp;&emsp;&emsp;TTL(Time to Live) = アイテムごとのタイムスタンプを定義し、アイテムが必要なくなる時期を決定</h6>
+
+<br>
+
+<h3>インメモリ</h3>
+
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElastiCache</a> - キャッシュクラスター、2つのメモリエンジンに対応(Redis/Memcached)
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;ElastiCache for Redis : 백업, 소프트웨어 패치, 자동 장애 및 복구를 관리,자동 스냅샷/수동 고유한 백업 스냅샷 생성 후 이용해 클러스터 복원  
+&emsp;&emsp;&emsp;&emsp;ElastiCache for Redis : バックアップ、ソフトウェアパッチ、自動障害および復旧を管理、自動スナップショット/手動固有のバックアップスナップショット作成後に利用してクラスター復元
 <br><br>
-&emsp;&emsp;&emsp;&emsp;ElastiCache for Memcached : 인 메모리 키-값 스토어 서비스, 확장 가능, 완전관리형 서비스
+&emsp;&emsp;&emsp;&emsp;ElastiCache for Memcached : インメモリキー値ストアサービス、拡張可能、完全管理型サービス
 </h6>
 
 <br>
 
-<h3>기타</h3>
+<h3>その他</h3>
 
-PostgreSQL : 오픈 소스 객체-관계형 데이터베이스 시스템(ORDBMS), 함수/연산자 등 다양한 데이터베이스 객체 커스텀 가능
-
-<br>
-
-Amazon Neptune : 그래프 유형, IoT 애플리케이션, DevOps, 산업용 텔레메트리
+PostgreSQL : オープンソースオブジェクト-関係型データベースシステム(ORDBMS)、関数/演算子など様々なデータベースオブジェクトのカスタムが可能
 
 <br>
 
-Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프로필, MongoDB호환
+Amazon Neptune : グラフタイプ、IoTアプリケーション、DevOps、産業用テレメトリー
+
+<br>
+
+Amazon DocumentDB : 文書タイプ、コンテンツ管理、カタログ、ユーザープロファイル、MongoDB互換
 
 <hr>
 
@@ -324,44 +324,44 @@ Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>분석</h2>
+<h2>分析</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - 데이터 수집처리, 실시간 처리
+<a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - データ収集処理、リアルタイム処理
 <h6>
 
-&emsp;&emsp;&emsp;&emsp;Kinesis Data Streams : 실시간 데이터 스트림을 캡처/처리/저장/분석해주는 서비스
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Streams : リアルタイムデータストリームをキャプチャ/処理/保存/分析してくれるサービス
 <br><br>
-&emsp;&emsp;&emsp;&emsp;Kinesis Data Analytics : Apache Flink를 사용하여 실시간으로 스트리밍 데이터를 변환하고 분석
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Analytics : Apache Flinkを使用してリアルタイムでストリーミングデータを変換し分析
 <br>  
-&emsp;&emsp;&emsp;&emsp;Kinesis Data Firehose : 데이터 스트림 처리/전송
+&emsp;&emsp;&emsp;&emsp;Kinesis Data Firehose : データストリーム処理/転送
   
 </h6>
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - 데이터 프로세싱 / 호스팅 되는 하둡 프레임워크 활용.
+<a href="https://docs.aws.amazon.com/ko_kr/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - データプロセッシング / ホスティングされるHadoopフレームワークの活用
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - 데이터 액세스, 변환처리, 데이터의 이동과 변환을 자동화하는 데 사용할 수 있는 웹 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - データアクセス、変換処理、データの移動と変換を自動化するために使用できるWebサービス
 
 <br>
 
-Athena : S3에 저장된 데이터에 쿼리를 날려 간편하게 데이터를 분석할 수 있는 SQL 쿼리 서비스
+Athena : S3に保存されたデータにクエリを飛ばして簡単にデータを分析できるSQLクエリサービス
 
 <br>
 
-QuickSight : 클라우드 기반 BI(Business Intelligence) 도구를 제공하는 시각화 도구 
+QuickSight : クラウドベースのBI(Business Intelligence)ツールを提供する視覚化ツール
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 완전 관리형 서비스, 웹 사이트/애플리케이션을 위한 검색 솔루션을 쉽게 설치, 관리 및 확장
+<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 完全管理型サービス、ウェブサイト/アプリケーションのための検索ソリューションを簡単にインストール、管理、および拡張
 
 <br>
 
-AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 안전하게 데이터를 전송할 수 있는 통합 서비스
+AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間で安全にデータを送信できる統合サービス
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;SaaS(Software as a Service) : 서비스형 소프트웨어, 클라우드 서비스로 제공되는 소프트웨어   
+&emsp;&emsp;&emsp;&emsp;SaaS(Software as a Service) : サービス型ソフトウェア、クラウドサービスで提供されるソフトウェア   
 </h6>
   
 
