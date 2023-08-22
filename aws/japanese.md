@@ -18,7 +18,7 @@ Language
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : サーバー自動増設
+<a href="https://docs.aws.amazon.com/ja_jp/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : サーバー自動増設
 
 <br> 
  
@@ -76,7 +76,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : ネットワークとネットワーク間のセキュリティ接続を設定するサービス
+<a href="https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : ネットワークとネットワーク間のセキュリティ接続を設定するサービス
 <h6>
 &emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN、AWS VPC環境とオンプレミス環境のVPN接続
 <br><br>  
@@ -123,7 +123,7 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 <br><h4>S3 ライフサイクル</h4> 
 <img src="https://user-images.githubusercontent.com/59690816/167321873-67dc89e2-6c9b-4e9b-b69d-fdb8e7b3efe8.png" width="500" height="350">
 
-<h6>出処 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
+<h6>出処 : https://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 </div><br>
 <a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
 
@@ -131,11 +131,11 @@ API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキ
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/fsx/?id=docs_gateway">Amazon FSx</a> : Windows Serverに構築される完全管理型ファイルストレージ、SMBプロトコルベース
+<a href="https://docs.aws.amazon.com/ja_jp/fsx/?id=docs_gateway">Amazon FSx</a> : Windows Serverに構築される完全管理型ファイルストレージ、SMBプロトコルベース
 
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/efs/latest/ug/whatisefs.html">EFS(Elastic File System)</a> : Linux Server、EC2用管理型ファイルストレージ、NFS/NASと同様のサービス、NFSプロトコルベース
+<a href="https://docs.aws.amazon.com/ja_jp/efs/latest/ug/whatisefs.html">EFS(Elastic File System)</a> : Linux Server、EC2用管理型ファイルストレージ、NFS/NASと同様のサービス、NFSプロトコルベース
 
 <br>
 
@@ -210,26 +210,26 @@ Simple Region Replication(SRR) : 同一リージョンのS3バケットからオ
 
 <h2>管理およびセキュリティ</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM</a> - ユーザーアカウントとグループ管理
+<a href="https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/access_policies.html">IAM</a> - ユーザーアカウントとグループ管理
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAMセキュリティベストプラクティス</a>:ルートユーザ使用アクセスキーロック、役割を使用して権限委任、最小権限付与など
+&emsp;&emsp;&emsp;&emsp;<a href="https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/access_policies.html">IAMセキュリティベストプラクティス</a>:ルートユーザ使用アクセスキーロック、役割を使用して権限委任、最小権限付与など
 </h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWSサービス観察·モニタリングシステム
+<a href="https://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWSサービス観察·モニタリングシステム
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : ユーザー観察、アカウントに対するAPI呼び出し記録
-
-<br>
-
-<a href="https://docs.aws.amazon.com/ko_kr/network-firewall/latest/developerguide/what-is-aws-network-firewall.html">FireWall</a> : ファイア・ウォール
+<a href="https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : ユーザー観察、アカウントに対するAPI呼び出し記録
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - ユーザーデータの同期と資格証明
+<a href="https://docs.aws.amazon.com/ja_jp/network-firewall/latest/developerguide/what-is-aws-network-firewall.html">FireWall</a> : ファイア・ウォール
+
+<br>
+
+<a href="https://docs.aws.amazon.com/ja_jp/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - ユーザーデータの同期と資格証明
 <br>
 
 AWS Organizations : 複数のAWSアカウントを組織に統合し、中央で管理できるアカウント、各アカウントのストレージ使用量を統合してS3コスト削減が可能
@@ -256,14 +256,14 @@ AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改�
 
 <h2>アプリケーション</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/workspaces/?id=docs_gateway">Work Spaces</a>  - デスクトップを手軽にプロビジョニング / ユーザー無制限
+<a href="https://docs.aws.amazon.com/ja_jp/workspaces/?id=docs_gateway">Work Spaces</a>  - デスクトップを手軽にプロビジョニング / ユーザー無制限
 
 <h6>&emsp;&emsp;&emsp;&emsp;プロビジョニング: ユーザーのニーズに合わせてリソース割り当て、配置、配布しておいて、すぐに使用できるように準備 </h6>
 
   
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - ストレージおよび共有サービス / 無料トライアルユーザー最大50名
+<a href="https://docs.aws.amazon.com/ja_jp/workdocs/?id=docs_gateway">Work Docs</a> - ストレージおよび共有サービス / 無料トライアルユーザー最大50名
 
 <hr>
 
@@ -274,11 +274,11 @@ AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改�
 <h2>データベース.</h2>
 <h3>リレーショナルデータベース</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 関係型DB、Mysql、Oracleなど
+<a href="https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Welcome.html">RDS</a> - 関係型DB、Mysql、Oracleなど
 
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/redshift/latest/mgmt/welcome.html">Redshift</a> - DWで素早くデータクエリ、ペタ規模
+<a href="https://docs.aws.amazon.com/ja_jp/redshift/latest/mgmt/welcome.html">Redshift</a> - DWで素早くデータクエリ、ペタ規模
 
 <h6>&emsp;&emsp;&emsp;&emsp;DW（データウェアハウス）=ユーザの意思決定に役立つ、基幹システムのDBに縮尺されたデータを共通形式に変換して管理するDB</h6>
 
@@ -290,7 +290,7 @@ Aurora : MySQLおよびPostgreSQLと互換性のある完全管理型関係型�
 
 <h3>キー値(NoSQL)</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSDの使いやすさ、Qos(Quality of Service)自動的に最適化
+<a href="https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/Introduction.html">DynamoDB</a> - NoSQL / SSDの使いやすさ、Qos(Quality of Service)自動的に最適化
 
 <h6>&emsp;&emsp;&emsp;&emsp;TTL(Time to Live) = アイテムごとのタイムスタンプを定義し、アイテムが必要なくなる時期を決定</h6>
 
@@ -298,7 +298,7 @@ Aurora : MySQLおよびPostgreSQLと互換性のある完全管理型関係型�
 
 <h3>インメモリ</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonElastiCache/latest/red-ug/WhatIs.html">ElastiCache</a> - キャッシュクラスター、2つのメモリエンジンに対応(Redis/Memcached)
+<a href="https://docs.aws.amazon.com/ja_jp/AmazonElastiCache/latest/red-ug/WhatIs.html">ElastiCache</a> - キャッシュクラスター、2つのメモリエンジンに対応(Redis/Memcached)
 
 <h6>
 &emsp;&emsp;&emsp;&emsp;ElastiCache for Redis : バックアップ、ソフトウェアパッチ、自動障害および復旧を管理、自動スナップショット/手動固有のバックアップスナップショット作成後に利用してクラスター復元
@@ -328,7 +328,7 @@ Amazon DocumentDB : 文書タイプ、コンテンツ管理、カタログ、ユ
 
 <h2>分析</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/kinesis/?id=docs_gateway">Kinesis</a> - データ収集処理、リアルタイム処理
+<a href="https://docs.aws.amazon.com/ja_jp/kinesis/?id=docs_gateway">Kinesis</a> - データ収集処理、リアルタイム処理
 <h6>
 
 &emsp;&emsp;&emsp;&emsp;Kinesis Data Streams : リアルタイムデータストリームをキャプチャ/処理/保存/分析してくれるサービス
@@ -340,11 +340,11 @@ Amazon DocumentDB : 文書タイプ、コンテンツ管理、カタログ、ユ
 </h6>
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - データプロセッシング / ホスティングされるHadoopフレームワークの活用
+<a href="https://docs.aws.amazon.com/ja_jp/emr/?id=docs_gateway">Elastic Map Reduce(EMR)</a> - データプロセッシング / ホスティングされるHadoopフレームワークの活用
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - データアクセス、変換処理、データの移動と変換を自動化するために使用できるWebサービス
+<a href="https://docs.aws.amazon.com/ja_jp/datapipeline/latest/DeveloperGuide/what-is-datapipeline.html">Data Pipeline</a> - データアクセス、変換処理、データの移動と変換を自動化するために使用できるWebサービス
 
 <br>
 
@@ -356,7 +356,7 @@ QuickSight : クラウドベースのBI(Business Intelligence)ツールを提供
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/cloudsearch/?id=docs_gateway">CloudSearch</a> - 完全管理型サービス、ウェブサイト/アプリケーションのための検索ソリューションを簡単にインストール、管理、および拡張
+<a href="https://docs.aws.amazon.com/ja_jp/cloudsearch/?id=docs_gateway">CloudSearch</a> - 完全管理型サービス、ウェブサイト/アプリケーションのための検索ソリューションを簡単にインストール、管理、および拡張
 
 <br>
 
@@ -375,19 +375,19 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <h2>アプリ·サービス</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - トラックの電子メール、マーケティング メッセージは、異なるタイプの高品質コンテンツ、リアルタイムアクセス
+<a href="https://docs.aws.amazon.com/ja_jp/ses/latest/dg/Welcome.html">Simple Email Service(SES)</a> - トラックの電子メール、マーケティング メッセージは、異なるタイプの高品質コンテンツ、リアルタイムアクセス
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html">Simple Queue Service(SQS)</a> - メッセージ損失なしにすべてのスループットレベルでどのデータボリュームも送信、1つの保証But追加データ処理保障X、FIFO
+<a href="https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html">Simple Queue Service(SQS)</a> - メッセージ損失なしにすべてのスループットレベルでどのデータボリュームも送信、1つの保証But追加データ処理保障X、FIFO
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - クラウドステータスの追跡、作業調整
+<a href="https://docs.aws.amazon.com/ja_jp/amazonswf/latest/developerguide/swf-welcome.html">Simple WorkFlow(SWF)</a> - クラウドステータスの追跡、作業調整
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 管理型メッセージブローカーサービス
+<a href="https://docs.aws.amazon.com/ja_jp/amazon-mq/?id=docs_gateway">MQ(Message Queue)</a> : 管理型メッセージブローカーサービス
 
 <h6>&emsp;&emsp;&emsp;&emsp;メッセージブローカー(message broker) : システムとサービスが互いに通信し、情報を交換できるようにするソフトウェア </h6>
 
@@ -399,7 +399,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <h2>配布および管理</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/opsworks/latest/userguide/welcome.html">OpsWorks</a> - アプリケーション構成と配布自動化/アプリケーション管理ソリューション、Puppet/ChefレシピおよびBashスクリプトを使用してコード構成
+<a href="https://docs.aws.amazon.com/ja_jp/opsworks/latest/userguide/welcome.html">OpsWorks</a> - アプリケーション構成と配布自動化/アプリケーション管理ソリューション、Puppet/ChefレシピおよびBashスクリプトを使用してコード構成
 <h6>
 &emsp;&emsp;&emsp;&emsp; Chef : オープンソースシステム管理フレームワーク、サーバインフラ構築自動化
 <br><br>
@@ -408,11 +408,11 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AWSCloudFormation/latest/UserGuide/Welcome.html">CloudFormaiton</a> - リソーステンプレートの作成 / テンプレートおよび関連するリソースコレクション(スタック)を配布および更新
+<a href="https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/Welcome.html">CloudFormaiton</a> - リソーステンプレートの作成 / テンプレートおよび関連するリソースコレクション(スタック)を配布および更新
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/Welcome.html">Elastic Beanstalk</a> - アプリケーションの自動配布処理と規模調整
+<a href="https://docs.aws.amazon.com/ja_jp/elasticbeanstalk/latest/dg/Welcome.html">Elastic Beanstalk</a> - アプリケーションの自動配布処理と規模調整
 
 <br>
 
@@ -428,7 +428,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <h3>開発者ツール</h3>
 
-<a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2インスタンス、オンプレミスインスタンス、サーバレスLambda関数などのサービスでアプリケーション配布を自動化するサービス
+<a href="https://docs.aws.amazon.com/ja_jp/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2インスタンス、オンプレミスインスタンス、サーバレスLambda関数などのサービスでアプリケーション配布を自動化するサービス
 
 <hr>
 
@@ -438,7 +438,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <h2>モバイル·サービス</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 通知をスマホでプッシュ
+<a href="https://docs.aws.amazon.com/ja_jp/sns/latest/dg/welcome.html">Simple Notification Service(SNS)</a> - 通知をスマホでプッシュ
 
 <br>
 
