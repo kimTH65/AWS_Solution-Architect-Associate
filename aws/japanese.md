@@ -62,7 +62,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <br>
 
-<a href="https://aws.amazon.com/ja/route53/">Route53</a> - DNS(Domain Name System)
+<a href="https://aws.amazon.com/jp/route53/?nc1=h_ls">Route53</a> - DNS(Domain Name System)
 
 <h6>
 &emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 現在位置で遅延時間(Latency)が最も低いリージョンのIPアドレスを知らせる
