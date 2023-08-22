@@ -46,7 +46,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>네트워킹</h2>
+<h2>Networking</h2>
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 
