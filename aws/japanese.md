@@ -87,15 +87,15 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <br>
 
-<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : 데이터 전용선, AWS환경과 온프레미스 환경과의 연결을 위한 서비스솔루션
+<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> :データ専用線、AWS環境とオンプレミス環境との接続のためのサービスソリューション
 
 <br>
 
-Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자 트래픽 전송하여 성능을 개선하는 네트워킹 서비스
+Global Accelerator : AWSのグローバルネットワークインフラを通じてユーザートラフィックを送信し、パフォーマンスを向上させるネットワーキングサービス
 
 <br>
 
-API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지할 수 있는 서비스, Lambda함께 REST Api 생성가능
+API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキュリティを維持できるサービス、Lambdaと一緒にRESTApiを生成可能
 
 <hr>
 
@@ -103,102 +103,102 @@ API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지�
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>스토리지(Storage)</h2>
+<h2>ストレージ(Storage)</h2>
 
-<h3>스토리지 종류</h3>
+<h3>ストレージの種類</h3>
 
-<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반)
+<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 一般)
 
-<h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
+<h6>&emsp;&emsp;&emsp;&emsp;バケット(Bucket) : 3 で生成できる最上位ディレクトリの概念、名前はS3 リージョンの中で唯一でなければならない </h6>
 
-<h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 여러 도메인에서 애플리케이션의 S3 버킷으로의 콘텐츠 액세스를 허용하는 데 사용되는 메커니즘</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 複数のドメインからアプリケーションのS3バケットへのコンテンツアクセスを許可するために使用されるメカニズム</h6>
 
-<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(저렴,데이터 아카이빙) 
+<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(安価、データアーカイブ) 
 
-<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : ボルトロックポリシーを使用してGlacierの各資格証明集について規定管理が可能。ロック可能</h6>
                              
 <div align="center">
-<br><h4>S3 수명주기</h4> 
+<br><h4>S3 ライフサイクル</h4> 
 <img src="https://user-images.githubusercontent.com/59690816/167321873-67dc89e2-6c9b-4e9b-b69d-fdb8e7b3efe8.png" width="500" height="350">
 
-<h6>출처 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
+<h6>出処 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 </div><br>
-<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) 
+<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 速いブロック) 
 
-<h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : EBSスナップショット及び削除予約可能</h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/fsx/?id=docs_gateway">Amazon FSx</a> : Windows Server에 구축되는 완전관리형 파일 스토리지,SMB 프로토콜 기반
+<a href="https://docs.aws.amazon.com/ko_kr/fsx/?id=docs_gateway">Amazon FSx</a> : Windows Serverに構築される完全管理型ファイルストレージ、SMBプロトコルベース
 
 <br> 
 
-<a href="https://docs.aws.amazon.com/ko_kr/efs/latest/ug/whatisefs.html">EFS(Elastic File System)</a> : Linux Server, EC2용 관리형 파일 스토리지, NFS/NAS와 동일한 서비스 , NFS 프로토콜 기반
+<a href="https://docs.aws.amazon.com/ko_kr/efs/latest/ug/whatisefs.html">EFS(Elastic File System)</a> : Linux Server、EC2用管理型ファイルストレージ、NFS/NASと同様のサービス、NFSプロトコルベース
 
 <br>
 
-EC2 Instance Store : 블록 수준의 임시 스토리지, 호스트 컴퓨터에 물리적으로 연결된 디스크
+EC2 Instance Store : ブロックレベルの一時ストレージ、ホスト コンピューターに物理的に接続されたディスク
 
 <br>
 
-Snow Family : 오프라인 데이터 전송 디바이스 , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
+Snow Family : オフラインデータ転送デバイス , Snowcone - Snowball/Snowball Edge - Snowmobile(100PB)
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;Snowball : 데이터 마이그레이션 및 엣지 컴퓨팅 디바이스, S3와 호환되는 객체 스토리지 제공
+&emsp;&emsp;&emsp;&emsp;Snowball : データ移行およびエッジコンピューティングデバイス、S3と互換性のあるオブジェクトストレージを提供
 
-<br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB～PB사이즈의 데이터를 AWS로 빠르고 안전하게 전송할 떄
+<br>&emsp;&emsp;&emsp;&emsp;Snowball Edge Storage Optimized - TB~PBサイズのデータをAWSに素早く安全に転送する際
 
-&emsp;&emsp;&emsp;&emsp;Snowball Edge -> S3 -> Glacier(수명주기 정책)패턴으로 많이 사용
+&emsp;&emsp;&emsp;&emsp;Snowball Edge -> S3 -> Glacier(ライフサイクルポリシー)パターンとしてよく使用
   
 <br>
   
 </h6>
 
-<h3>기타 기능</h3>
+<h3>その他の機能</h3>
 
 <br>
 
-Snapshot(스냅샷) : 사진 찍듯이 특정 시점에 스토리지의 파일 시스템을 포착해 보관하는 기술을 의미
+ Snapshot(スナップショット) : 写真を撮るように特定時点でストレージのファイルシステムを捕捉して保管する技術を意味する
 
 <br>
 
-AWS DataSync : 네트워크 대역폭을 최적화하고 온프레미스-AWS 스토리지간의 데이터 이동 가속화 하는 온라인 전송 서비스
+AWS DataSync : ネットワーク帯域幅を最適化し、オンプレミス-AWSストレージ間のデータ移動を加速するオンライン配信サービス
 
 <br>
 
-AWS Storage Gateway : 온프레미스에서 거의 무제한의 스토리지에 액세스할 수 있는 하이브리드 클라우드 스토리지 서비스
+AWS Storage Gateway : オンプレミスからほぼ無制限のストレージにアクセスできるハイブリッドクラウドストレージサービス
 
 <br>
 
-AWS Transfer Family : SFTP,FTPS 및 FTP 프로토콜을 사용하여 S3/EFS로 간단하고 원활하게 파일을 전송
+AWS Transfer Family : SFTP、FTPSおよびFTPプロトコルを使用してS3/EFSに簡単かつ円滑にファイルを転送
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;Transfer Acceleration : 클라이언트와 S3간 파일 쉽고 안전하게 장거리 전송
+&emsp;&emsp;&emsp;&emsp;Transfer Acceleration : SFTP、FTPSおよびFTPプロトコルを使用してS3/EFSに簡単かつ円滑にファイルを転送
 </h6>
 
 <br>
 
-AWS Multipart Upload : 대형 객체를 나누어 업로드, 기존 객체의 복사본 
+AWS Multipart Upload : 大型オブジェクトを分けてアップロード、既存オブジェクトのコピー
 
 <br>
 
-AWS Elastic Disaster Recovery(DRS) : 저렴한 스토리지, 최소한의 컴퓨팅/특정 시점 복구로 빠르고 안정적으로 데이터 복구
+AWS Elastic Disaster Recovery(DRS) : 安価なストレージ、最小限のコンピューティング/特定の視点復旧で迅速かつ安定的にデータ復旧
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;DR(Disaster Recovery) : 재해복구, 재해/위험으로 의해 시스템이 중단 됐을 때 이를 정상 상태로 복구하는 것
+&emsp;&emsp;&emsp;&emsp;DR(Disaster Recovery) : 災害復旧、災害/危険によりシステムが中断されたときに、それを正常な状態に復旧すること
 </h6>
 
 <br>
 
-AWS Backup : 애플리케이션의 데이터 보호,규정 준수 및 거버넌스를 중앙 관리/ 자동화 하는 완전 관리형 정책 기반 서비스
+AWS Backup : アプリケーションのデータ保護、コンプライアンス、ガバナンスを中央管理/自動化する完全管理型ポリシーベースのサービス
 
 <br>
 
-Cross Region Replication(CRR) : 서로 다른 AWS 리전의 S3 버킷에서 객체 복사
+Cross Region Replication(CRR) : 異なるAWSリージョンのS3バケットからオブジェクトコピー
 
 <br>
 
-Simple Region Replication(SRR) : 동일한 리전의 S3 버킷에서 객체 복사하는데 사용
+Simple Region Replication(SRR) : 同一リージョンのS3バケットからオブジェクトコピーに使用
 
 <hr>
 
@@ -206,47 +206,45 @@ Simple Region Replication(SRR) : 동일한 리전의 S3 버킷에서 객체 복�
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>관리 및 보안</h2>
+<h2>管理およびセキュリティ</h2>
 
-<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM</a> - 사용자 계정 및 그룹관리
+<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM</a> - ユーザーアカウントとグループ管理
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAM 보안 모범 사례</a> : 루트 사용자 사용 액세스 키 잠금, 역할을 사용하여 권한 위임, 최소 권한 부여 등
+&emsp;&emsp;&emsp;&emsp;<a href="https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/access_policies.html">IAMセキュリティベストプラクティス</a>:ルートユーザ使用アクセスキーロック、役割を使用して権限委任、最小権限付与など
 </h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWS 서비스 관찰, 모니터링 시스템
+<a href="https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Cloud Watch</a> : AWSサービス観察·モニタリングシステム
+<br>
+
+<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : ユーザー観察、アカウントに対するAPI呼び出し記録
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/awscloudtrail/latest/userguide/cloudtrail-user-guide.html">Cloud Trail</a> : 사용자 관찰, 계정에 대한 API 호출 기록
+<a href="https://docs.aws.amazon.com/ko_kr/network-firewall/latest/developerguide/what-is-aws-network-firewall.html">FireWall</a> : ファイア・ウォール
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/network-firewall/latest/developerguide/what-is-aws-network-firewall.html">FireWall</a> : 방화벽
+<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - ユーザーデータの同期と資格証明
+<br>
+
+AWS Organizations : 複数のAWSアカウントを組織に統合し、中央で管理できるアカウント、各アカウントのストレージ使用量を統合してS3コスト削減が可能
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/cognito-user-identity-pools.html">Cognito</a> - 사용자 데이터 동기화 및 자격 증명
+WAF : コンテンツへのアクセスを制御できるよう、CloudFrontに送信されるHTTPおよびHTTPS要求を監視するWebアプリケーションファイアウォール、SQL注入またはサイト間スクリプティング(XXS)のような一般的な攻撃パターンをブロックセキュリティルール定義可能
+
+<h6>&emsp;&emsp;&emsp;&emsp;XXS(交差サイトスクリプティング) : 脆弱な動的ウェブページにコードを追加/掲示し、他のユーザーのPCにマルウェアを実行させる攻撃</h6>
 
 <br>
 
-AWS Organizations : 여러 AWS 계정을 조직에 통합하고 중앙에서 관리할 수 있는 계정, 각 계정의 스토리지 사용량을 통합하여 S3 비용 절감가능
+MFA(Multi-Factor Authentication) : 2段階認証/OTPのようなもの、CognitoユーザープールにMFAを追加して使用する
 
 <br>
 
-WAF : 콘텐츠에 대한 액세스를 제어할 수 있도록 CloudFront로 전송되는 HTTP 및 HTTPS 요청을 모니터링하는 웹 애플리케이션 방화벽, SQL주입 또는 사이트 간 스크립팅(XXS)와 같은 일반적인 공격 패턴을 차단 보안 규칙 정의 가능
-
-<h6>&emsp;&emsp;&emsp;&emsp;XXS(교차 사이트 스크립팅) : 취약한 동적 웹페이지에 코드를 추가/게시하여 다른 사용자의 PC에 악성코드가 실행되게 하는 공격</h6>
-
-<br>
-
-MFA(Multi-Factor Authentication) : 2단계 인증/OTP같은 것, Cognito 사용자 풀에 MFA 추가해서 사용함
-
-<br>
-
-AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선하는 관리형 위협 방지 서비스
+AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改善する管理型脅威防止サービス
 
 <hr>
 
