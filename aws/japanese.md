@@ -26,7 +26,7 @@ SAM(Serverless Application Model)　:　サーバレスアプリケーション�
 
 <h2>コンテナ(Container)</h2>  
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Docker コンテナ管理サービス
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a>　:　Docker コンテナ管理サービス
 
 <br>
 
