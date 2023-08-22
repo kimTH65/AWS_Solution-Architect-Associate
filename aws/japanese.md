@@ -14,7 +14,7 @@ Language
 
 <br>  
 
-<a href="https://aws.amazon.com/ja/lambda/faqs/">Lambda </a> : サーバーをプロビジョニングしたり管理したりする必要がないサーバーレスコンピューティングサービス
+<a href="https://aws.amazon.com/jp/lambda/faqs/?nc1=h_ls">Lambda </a> : サーバーをプロビジョニングしたり管理したりする必要がないサーバーレスコンピューティングサービス
 
 <br>
 
