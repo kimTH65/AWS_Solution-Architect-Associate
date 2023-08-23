@@ -13,7 +13,7 @@
 <br><br>
 <a href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/Using_Tags.html">タグ</a>:ユーザーが生成してAmazon EC2 リソースに割り当てることができるメタデータ
 <br><br>
-<a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html">インスタンスタイプ</a> : インスタンスのためのCPU、メモリ、ストレージ、ネットワーキング容量様々な構成を提供
+<a href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/instance-types.html">インスタンスタイプ</a> : インスタンスのためのCPU、メモリ、ストレージ、ネットワーキング容量様々な構成を提供
 <br><br><a href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/using-regions-availability-zones.html">リージョン(Region)及び可用領域(AZ)</a>:インスタンスとEBSボリュームなどのリソースを他の物理的な場所からアクセスできるリージョン及び可用領域
 <h6>&emsp;&emsp;&emsp;&emsp;AZ(Availability Zone) : 各リージョン内の隔離された位置、個別データセンターで構成されている</h6>
 <hr>
