@@ -71,7 +71,7 @@
 <h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 送信専用ゲートウェイ:
 
 <br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; IPv6トラフィックに使用可能、インターネットでのアウトバウンド許可、ButインターネットからのインバウンドX
-<br> &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; IPv4によるアウトバウンド専用インターネット通信時、NATゲートウェイを使用する必要がある </h6>
+<br> &emsp; &emsp; &emsp; &emsp;　&emsp; &emsp; &emsp;  IPv4によるアウトバウンド専用インターネット通信時、NATゲートウェイを使用する必要がある </h6>
 
 <br>トラフィック管理、権限付与およびアクセス制御、モニタリングなどを提供
 
