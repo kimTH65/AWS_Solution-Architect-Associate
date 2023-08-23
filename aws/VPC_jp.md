@@ -120,7 +120,7 @@
 <br> Interface Endpoint : PrivateLink、独自のサービス、SaaSソリューションに非公開で接続でき、Direct Connectによる接続をサポート
 <br>プライベートネットワークを利用した他のVPCウェブサーバへのアクセス方法:
 <br> &emsp; &emsp; &emsp; EC2 インスタンス→インターフェースエンドポイント→プライベートリンク→NLB→それぞれのウェブサーバー
-<h6> &emsp; &emsp; &emmsp; &emmsp; &emmsp; &emmsp; PrivateLink:インターフェースエンドポイントとエンドポイントサービスを通じた接続</h6>
+<h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; PrivateLink:インターフェースエンドポイントとエンドポイントサービスを通じた接続</h6>
 <hr>
 
 <h2> VPC Flow Logs </h2>
