@@ -1,6 +1,6 @@
 # ELB(Elastic Load Balancer)
 
-<br>Elastic Load Balancing :  Amazon EC2 インスタンス、コンテナおよびIP アドレスといった複数の対象に対して受信アプリケーションまたはネットワークトラフィックを複数の可用領域に配布
+<br>Elastic Load Balancing :  Amazon EC2 インスタンス、コンテナおよびIP アドレスのような複数の対象に対して受信アプリケーションまたはネットワークトラフィックを複数の可用領域に配布
 
 <br>On-premiseのL4スイッチのように負荷分散だけでなく負荷分散対象に対するヘルスチェック(Health Check)、固定セッション(Sticky)、SSL Offload(SSL暗復号化)、ヘルスチェックによるダウンサーバー除外などの機能
 
