@@ -92,7 +92,7 @@
 <br> &emsp; &emsp; &emsp; サブネットは1つのNACLsと接続可能 But NACLsは複数のサブネットと接続可能、
 <br> &emsp; &emsp; &emsp; &emsp; Statelss性質(リクエスト情報を別途保存しないため、応答するトラフィックに対するフィルタリングを設定する必要がある)
 
-<br>のようなサブネット同士で通信する場合:Security Groupポリシーを介して通信
+<br>同じサブネット同士で通信する場合:Security Groupポリシーを介して通信
 <br>他のサブネット同士で通信する場合:NACLポリシーを経た後、Security Groupを経る
 
 <hr>
