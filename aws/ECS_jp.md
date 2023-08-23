@@ -1,13 +1,13 @@
 # EC2 Container Service(ECS)
 
-EC2 Container Service : 인스턴스 클러스터에서 손쉽게 Docker 컨테이너를 실행, 중지 및 관리할 수 있는 서비스
+EC2 Container Service : インスタンスクラスターで簡単にDockerコンテナを実行、中止、および管理できるサービス
 
-<h6>&emsp;&emsp;&emsp;&emsp;클러스터란 : 작업 또는 서비스의 논리적 그룹, 클러스터를 사용하여 애플리케이션을 격리할 수 있다.</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;クラスターとは:作業またはサービスの論理的グループ、クラスターを使用してアプリケーションを隔離することができる。</h6>
 
-<br>ECR(EC2 Container Registry) : Docker Container 의 이미지를 저장하는 Repository 서비스
+<br>ECR(EC2 Container Registry):Docker Containerの画像を保存するRepositoryサービス
 
-<br>시작유형 : 컨테이너를 실행하는데 사용할 수 있는 두 가지 모델
+<br>スタートタイプ:コンテナの実行に使用できる2つのモデル
 
-<h6>&emsp;&emsp;&emsp;&emsp; Fargate 시작 유형 - 서버리스 종량제 옵션,인프라 관리할 필요 없이 컨테이너 실행 가능
-
-<br>&emsp;&emsp;&emsp;&emsp; EC2 시작 유형 - 클러스터에서 EC2 인스턴스를 구성하고 배포하여 컨테이너를 실행합니다.</h6>
+<h6>&emsp;&emsp;&emsp;&emsp; Fargate開始タイプ - サーバーレス従量制オプション、インフラ管理不要でコンテナ実行可能
+  
+<br>&emsp;&emsp;&emsp;&emsp; EC2 開始タイプ - クラスターでEC2 インスタンスを構成して配布し、コンテナを実行します。</h6>
