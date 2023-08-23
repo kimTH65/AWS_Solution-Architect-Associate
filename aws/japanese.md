@@ -9,7 +9,7 @@ Language
 <h2>コンピューティング(Computing)</h2>   
 
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : クラウドコンピューティングサービス
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2_jp.md">EC2(Elastic Compute Cloud)</a> : クラウドコンピューティングサービス
 
 
 <br>  
@@ -32,7 +32,7 @@ SAM(Serverless Application Model) : サーバレスアプリケーションを�
 
 <h2>コンテナ(Container)</h2>  
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Dockerコンテナ管理サービス
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS_jp.md">ECS(EC2 Container Service)</a> : Dockerコンテナ管理サービス
 
 <br>
 
@@ -54,11 +54,11 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 
 <h2>ネットワーキング(Networking)</h2>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB_jp.md">ELB(Elastic Load Balancing) </a> 
 
 <br>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC(Virtual Private Cloud)</a>
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC_jp.md">VPC(Virtual Private Cloud)</a>
 
 <br>
 
