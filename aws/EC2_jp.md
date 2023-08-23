@@ -28,7 +28,7 @@
 <a href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html">弾力的IPアドレス(EIP)</a>:動的クラウドコンピューティングのための固定IPv4アドレス
 <br><br>
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC.md">VPC(Virtual Private Cloud)</a> : AWSクラウドから論理的に隔離されているが、希望するたびにお客様のネットワークと接続可能な仮想ネットワーク
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/VPC_JP.md">VPC(Virtual Private Cloud)</a> : AWSクラウドから論理的に隔離されているが、希望するたびにお客様のネットワークと接続可能な仮想ネットワーク
 <hr>
 <h3>ストレージ</h3>
 <br>インスタンスストアボリューム:一時データ保存するストレージボリューム、インスタンス中断、最大節電モード/終了時に削除される
