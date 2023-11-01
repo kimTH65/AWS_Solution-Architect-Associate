@@ -1,7 +1,7 @@
 # AWS　
-<h3>
-AWS Certified Solutions Architect – Associate를 취득하기 위해 정리한 자료입니다.
-</h3>
+<h6>
+AWS Certified Solutions Architect – Associate를 취득하기 위해 정리한 자료(2022/6/4취득)
+</h6>
 
 <h3>
 Language 
