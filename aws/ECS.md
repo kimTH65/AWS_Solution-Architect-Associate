@@ -1,5 +1,7 @@
 # EC2 Container Service(ECS)
 
+<h3>기본 사항</h3>
+
 EC2 Container Service : 인스턴스 클러스터에서 손쉽게 Docker 컨테이너를 실행, 중지 및 관리할 수 있는 서비스
 
 <h6>&emsp;&emsp;&emsp;&emsp;클러스터란 : 작업 또는 서비스의 논리적 그룹, 클러스터를 사용하여 애플리케이션을 격리할 수 있다.</h6>
