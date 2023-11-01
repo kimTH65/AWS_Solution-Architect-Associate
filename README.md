@@ -15,7 +15,7 @@ Language
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
 </h5>
 
-<hr>
+#
 
 <h2>컴퓨팅(Computing)</h2>   
 
