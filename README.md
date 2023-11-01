@@ -1,4 +1,3 @@
-# AWS　
 <h6>
 AWS Certified Solutions Architect – Associate를 취득하기 위해 정리한 자료(2022/6/4취득)
 </h6>
