@@ -1,5 +1,7 @@
 # EC2 Container Service(ECS)
 
+<h3>基本事項</h3>
+
 EC2 Container Service : インスタンスクラスターで簡単にDockerコンテナを実行、中止、および管理できるサービス
 
 <h6>&emsp;&emsp;&emsp;&emsp;クラスターとは:作業またはサービスの論理的グループ、クラスターを使用してアプリケーションを隔離することができる。</h6>
