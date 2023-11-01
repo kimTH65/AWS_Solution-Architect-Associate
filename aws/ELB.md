@@ -13,8 +13,8 @@ Elastic Load Balancing :  Amazon EC2 인스턴스, 컨테이너 및 IP 주소와
 <br>Connection Draining 기능 : 사용자의 요청을 처리 중인 EC2 인스턴스를 바로 삭제하지 못하도록 하는 기능
 
 <hr>
-<h2>ELB 종류 </h2>
-<br> Applicaiton Load Balancer(ALB) : OSI 7 Layer의 7계층 Applicaiton Layer의 특성을 이용하는 로드밸런서, 클라이언트가 서비스를 요청하는 상황일 때
+<h3>ELB 종류 </h3>
+Applicaiton Load Balancer(ALB) : OSI 7 Layer의 7계층 Applicaiton Layer의 특성을 이용하는 로드밸런서, 클라이언트가 서비스를 요청하는 상황일 때
 <br>&emsp;&emsp;&emsp;&emsp; HTTP, HTTPS의 특성을 주로 다룸 -> HTTP의 헤더 정보를 이용해 부하분산을 실시 
 <br>&emsp;&emsp;&emsp;&emsp; SSL 인증서를 탑재할 수 있어 EC2를 대신하 SSL 암호화/ 복호화를 대신 진행
 
