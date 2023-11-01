@@ -1,10 +1,7 @@
-# AWS Solution-Architect Knowledge
+# AWS Solution-Architect Knowledge 
+<h6>AWS Certified Solutions Architect – Associate를 취득하기 위해 정리한 자료(2022/6/4취득)</h6>
 
-<h6>
-AWS Certified Solutions Architect – Associate를 취득하기 위해 정리한 자료(2022/6/4취득)
-</h6>
 
-<hr>
 
 <h3>
 Language 
@@ -14,13 +11,11 @@ Language
 &emsp;
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
 </h5>
-
-#
+<br>
 
 <h2>컴퓨팅(Computing)</h2>   
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/EC2.md">EC2(Elastic Compute Cloud)</a> : 클라우드 컴퓨팅 서비스
-
 
 <br>  
 
@@ -34,11 +29,7 @@ Language
  
 SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구 
 
-<hr>
-
- 
-<!--                                        ----------------------------------------------------------                                      -->
-
+<br><br><br>
 
 <h2>컨테이너(Container)</h2>  
 
@@ -56,7 +47,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 &emsp;&emsp;&emsp;&emsp;  Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
 </h6>
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -109,7 +100,7 @@ Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자
 
 API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지할 수 있는 서비스, Lambda함께 REST Api 생성가능
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -212,7 +203,7 @@ Cross Region Replication(CRR) : 서로 다른 AWS 리전의 S3 버킷에서 객�
 
 Simple Region Replication(SRR) : 동일한 리전의 S3 버킷에서 객체 복사하는데 사용
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -260,7 +251,7 @@ MFA(Multi-Factor Authentication) : 2단계 인증/OTP같은 것, Cognito 사용�
 
 AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선하는 관리형 위협 방지 서비스
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -277,7 +268,7 @@ AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선
 
 <a href="https://docs.aws.amazon.com/ko_kr/workdocs/?id=docs_gateway">Work Docs</a> - 스토리지 및 공유 서비스 / 무료 평가판 사용자 최대 50명
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -332,7 +323,7 @@ Amazon Neptune : 그래프 유형, IoT 애플리케이션, DevOps, 산업용 텔
 
 Amazon DocumentDB : 문서 유형, 콘텐츠 관리, 카탈로그, 사용자 프로필, MongoDB호환
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -379,7 +370,7 @@ AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 �
 </h6>
   
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -443,7 +434,7 @@ AppFlow : 코드 없이 SaaS 애플리케이션과 AWS 서비스 사이에서 �
 
 <a href="https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2인스턴스, 온프레미스 인스턴스, 서버리스 Lambda 함수 등의 서비스로 애플리케이션 배포를 자동화하는 서비스
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -461,7 +452,7 @@ Mobile Analytics - 모바일 분석, 보고서 / Cognito와 통합됨
 
 AppSync : DynamoDB,Lambda 등 연결 후 GraphQL(쿼리 언어) API 개발을 용이하게 하는 완전관리형 서비스
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
