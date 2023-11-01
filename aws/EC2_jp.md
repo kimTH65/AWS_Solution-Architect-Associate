@@ -1,7 +1,5 @@
 # EC2 (Elastic Compute Cloud)
 
-<h2>EC2 機能</h2> 
-
 <h3>基本事項</h3>
 
 <a href="https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">インスタンスおよびAMI(Amazon Machine Image)</a> : インスタンス=仮想コンピューティング環境/AMI=サーバに必要なOS、ソフトウェアを構成された状態で提供されるテンプレート
