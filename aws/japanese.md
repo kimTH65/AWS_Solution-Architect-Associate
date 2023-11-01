@@ -1,4 +1,6 @@
-# AWS
+# AWS Solution-Architect Knowledge 
+<h6>AWS Certified Solutions Architect - Associateを取得するために整理した資料(2022/6/4取得)</h6>
+
 <h3>
 Language 
 </h3>
@@ -6,6 +8,8 @@ Language
 <a href="https://github.com/kimTH65/AWS/blob/main/README.md">한국어</a> 
 &emsp;
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
+<br>
+ 
 <h2>コンピューティング(Computing)</h2>   
 
 
@@ -24,7 +28,7 @@ Language
  
 SAM(Serverless Application Model) : サーバレスアプリケーションをビルドするための配布ツール
 
-<hr>
+<br><br><br>
 
  
 <!--                                        ----------------------------------------------------------                                      -->
@@ -46,7 +50,7 @@ EKS(Elastic Kubernetes Service) : Kubernetesを簡単に実行できる管理型
 &emsp;&emsp;&emsp;&emsp;  Kubernetes : 複数のコンテナ(Docker)を管理するサービス
 </h6>
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -99,7 +103,7 @@ Global Accelerator : AWSのグローバルネットワークインフラを通�
 
 API Gateway : APIを作成/運営/モニタリング(Cloud Watch)およびセキュリティを維持できるサービス、Lambdaと一緒にRESTApiを生成可能
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -202,7 +206,7 @@ Cross Region Replication(CRR) : 異なるAWSリージョンのS3バケットか�
 
 Simple Region Replication(SRR) : 同一リージョンのS3バケットからオブジェクトコピーに使用
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -248,7 +252,7 @@ MFA(Multi-Factor Authentication) : 2段階認証/OTPのようなもの、Cognito
 
 AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改善する管理型脅威防止サービス
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -265,8 +269,7 @@ AWS Shield : DDoS探知·緩和·対応機能でセキュリティ状態を改�
 
 <a href="https://docs.aws.amazon.com/ja_jp/workdocs/?id=docs_gateway">Work Docs</a> - ストレージおよび共有サービス / 無料トライアルユーザー最大50名
 
-<hr>
-
+<br><br><br>
 
 <!--                                        ----------------------------------------------------------                                      -->
 
@@ -320,7 +323,7 @@ Amazon Neptune : グラフタイプ、IoTアプリケーション、DevOps、産
 
 Amazon DocumentDB : 文書タイプ、コンテンツ管理、カタログ、ユーザープロファイル、MongoDB互換
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -367,7 +370,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 </h6>
   
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -391,7 +394,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <h6>&emsp;&emsp;&emsp;&emsp;メッセージブローカー(message broker) : システムとサービスが互いに通信し、情報を交換できるようにするソフトウェア </h6>
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -430,7 +433,7 @@ AppFlow : コードなしでSaaSアプリケーションとAWSサービスの間
 
 <a href="https://docs.aws.amazon.com/ja_jp/codedeploy/latest/userguide/welcome.html">CodeDeploy</a> - EC2インスタンス、オンプレミスインスタンス、サーバレスLambda関数などのサービスでアプリケーション配布を自動化するサービス
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
@@ -448,7 +451,7 @@ Mobile Analytics - モバイル分析、レポート/Cognitoと統合される
 
 AppSync : DynamoDB,Lambda など接続後のGraphQL(クエリ言語)API開発を容易にする完全管理型サービス
 
-<hr>
+<br><br><br>
 
 
 <!--                                        ----------------------------------------------------------                                      -->
