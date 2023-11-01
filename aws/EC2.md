@@ -1,7 +1,5 @@
 # EC2 (Elastic Compute Cloud)
 
-<h2>EC2 기능</h2> 
-
 <h3>기본 사항</h3>
 
 <a href="https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html">인스턴스 및 AMI(Amazon Machine Image)</a> : 인스턴스 = 가상 컴퓨팅 환경 / AMI = 서버에 필요한 OS, 소프트웨어를 구성된 상태로 제공되는 템플릿
