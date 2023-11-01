@@ -1,6 +1,6 @@
 <h1>VPC（Virtual Private Cloud）- 가상 프라이빗 클라우드</h1>
 
-<h2>VPC 사이징</h2>  
+<h3>VPC 사이징</h3>  
 2^16(65536개)IP 주소 사용가능, 10.0.0.0/16 과 같은 CIDR(Classless Inter - Domain Routing)블록 형태 IP주소 필요
 <br><br>허용된 CIDR 블록 사이즈 : 
 <br> /28 netmask (minimum with 2 4 - 16 available IP address)
@@ -23,7 +23,7 @@
 
 <hr>
 
-<h2>VPC 피어링 연결</h2> 
+<h3>VPC 피어링 연결</h3> 
 <br> IPV4/6 사용하여 연결, 같은 네트워크처럼 통신, 다른 계정/리전 VPC 연결가능,
 <br> 일대일 관계, 단일 실패 지점 없음, 연결 수 제한 있음, 
 <br> 기존 인프라를 이용해 연결하니 게이트웨이/ VPN 연결도 아니며 물리적 하드웨어에 의존 하지 않음,
@@ -33,7 +33,7 @@
 
 <hr>
 
-<h2>IP 주소</h2> 
+<h3>IP 주소</h3> 
 <br> 개인 IP 주소 : 
 <br> 인터넷 연결 할 수 없음, 내부 인스턴스를 통해 연결, 
 <br> 인스턴스 중지 / 재시작 시 / 종료되는 경우에도 네트워크 인터페이스와 연결된다.
@@ -49,19 +49,19 @@
 
 <hr>
 
-<h2>Elastic Network Interface(ENI)</h2> 
+<h3>Elastic Network Interface(ENI)</h3> 
 <br> 각 인스턴스는 기본 탄력적 네트워크 인터페이스(기본 네트워크 인터페이스 eth0)에 연결되며 분리 못함
 
 <hr>
 
-<h2>Route Tables</h2> 
+<h3>Route Tables</h3> 
 <br> 라우팅될 위치 경로 결정하는 규칙 정의, 각 VPC에는 네트워크 트래픽을 라우팅하는 암시적 라우터가 있음
 <br> VPC내의 각 서브넷은 한 번에 하나의 라우팅 테이블과 연결되야함,But 라우팅 테이블에 여러 서브넷 연결될 수 있음
 <br> 서브넷 경로 명시적으로 연결되지 않은 경우 기본 경로 테이블과 암시적으로 연결
 
 <hr>
 
-<h2> Internet Gateway (IGW)</h2> 
+<h3> Internet Gateway (IGW)</h3> 
 
 <br> 수평 확장/중복 가능, VPC인스턴스와 인터넷 간의 통신을 허용
 
@@ -82,7 +82,7 @@
 
 <hr>
 
-<h2> VPC Security </h2> 
+<h3> VPC Security </h3> 
 
 <br> Security groups : ec2 인스턴스에 대한 방화벽 역활, 인바운드 및 아웃바운드 트래픽 모두 제어
 <br> &emsp; &emsp;&emsp; &emsp; Stateful 성질(요청 정보를 저장하여 응답하는 트래픽 제어를 하지않음)
@@ -97,7 +97,7 @@
 
 <hr>
 
-<h2> Subnet </h2>  
+<h3> Subnet </h3>  
 <br> 공용 서브넷과 비공개 서브넷은 IGW 연결 유무에 따라 달라진다.(인터넷이 연결 되어 있는지에 따라)
 
 <br> 공용 서브넷은 공용 IP, 탄력적 IP 주소가 필요하다.
@@ -106,13 +106,13 @@
 
 <hr>
 
-<h2> 공유 VPC </h2> 
+<h3> 공유 VPC </h3> 
 
 <br> EC2 인스턴스, RDS 데이터베이스 같은 애플리케이션 리소스를 공유되고 관리되는 중앙 VPC로 생성, 다른 계정과 공유 가능
 
 <hr>
 
-<h2> VPC Endpoint </h2> 
+<h3> VPC Endpoint </h3> 
 
 <br> AWS 서비스에 외부 인터넷 구간으로 접근하지 않고, 직접적으로 접근하여 강력한 보안을 제공하는 프라이빗 액세스 기능
 
@@ -123,7 +123,7 @@
 <h6> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;PrivateLink : 인터페이스 엔드포인트와 엔드포인트 서비스를 통한 연결</h6>
 <hr>
 
-<h2> VPC Flow Logs </h2> 
+<h3> VPC Flow Logs </h3> 
 
 <br> VPC의 네트워크 인터페이스로 오가는 IP트래픽에 대한 정보를 캡쳐, CloudWatch로 로그를 수집, 다른 계정과 피어링 중이면 사용할 수 없다.
 
