@@ -5,7 +5,7 @@
     Language : 
     <a href="README.md">한국어</a> 
       ,
-    <a href="aws/US.md">English</a> 
+    <a href="US.md">English</a> 
   </h5>
 </div>
 
