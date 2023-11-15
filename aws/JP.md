@@ -3,7 +3,7 @@
 <div align="right">
   <h5>
     Language : 
-    <a href="README.md">한국어</a> 
+    <a href="https://github.com/kimTH65/AWS-Solution-Architect-Knowledge/blob/main/README.md">한국어</a> 
       ,
     <a href="US.md">English</a> 
   </h5>
