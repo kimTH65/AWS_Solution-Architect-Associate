@@ -1,14 +1,16 @@
 # AWS Solution-Architect Knowledge 
-<h6>AWS Certified Solutions Architect - Associateを取得するために整理した資料(2022/6/4取得)</h6>
 
-<h3>
-Language 
-</h3>
-<h5>
-<a href="https://github.com/kimTH65/AWS/blob/main/README.md">한국어</a> 
-&emsp;
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/japanese.md">日本語</a> 
-<br>
+<div align="right">
+  <h5>
+    Language : 
+    <a href="README.md">한국어</a> 
+      ,
+    <a href="aws/US.md">English</a> 
+  </h5>
+</div>
+
+AWS Certified Solutions Architect - Associateを取得するために整理した資料(2022/6/4取得)
+<br><br>
  
 <h2>コンピューティング(Computing)</h2>   
 
