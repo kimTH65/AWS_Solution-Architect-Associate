@@ -93,11 +93,11 @@ EKS(Elastic Kubernetes Service) : Managed services that make Kubernetes easy to 
 
 <br>
 
-Global Accelerator : AWS의 글로벌 네트워크 인프라를 통해 사용자 트래픽 전송하여 성능을 개선하는 네트워킹 서비스
+Global Accelerator : Networking services that improve performance by transporting user traffic over AWS global network infrastructure
 
 <br>
 
-API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지할 수 있는 서비스, Lambda함께 REST Api 생성가능
+API Gateway : Create/operate/monitor API (Cloud Watch) and secure service; create REST Api with Lambda
 
 <br><br><br>
 
@@ -105,27 +105,27 @@ API Gateway : API를 생성/운영/모니터링(Cloud Watch) 및 보안 유지�
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>스토리지(Storage)</h2>
+<h2>Storage</h2>
 
-<h3>스토리지 종류</h3>
+<h3>Storage Type</h3>
 
-<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, 일반)
+<a href="https://aws.amazon.com/ko/s3/?nc1=h_ls">S3</a>(Amazon Simple Storage Service, General)
 
-<h6>&emsp;&emsp;&emsp;&emsp;버킷(Bucket) : S3에서 생성할 수 있는 최상위 디렉토리의 개념, 이름은 S3 리전 중에서 유일해야함. </h6>
+<h6>&emsp;&emsp;&emsp;&emsp;Bucket : The concept and name of the top-level directory that can be created in S3 must be the only one in the S3 region. </h6>
 
-<h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : 여러 도메인에서 애플리케이션의 S3 버킷으로의 콘텐츠 액세스를 허용하는 데 사용되는 메커니즘</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;S3-CORS(Cross-Origin Resource Sharing) : Mechanism used to allow applications to access content to the S3 bucket across multiple domains</h6>
 
-<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(저렴,데이터 아카이빙) 
+<a href="https://aws.amazon.com/ko/s3/storage-classes/glacier/?nc1=h_ls">S3 - Glacier</a>(Affordable, data archiving) 
 
-<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : 볼트 잠금 정책을 사용하여 Glacier의 각 자격 증명 모음에 대해 규정 관리 가능. 잠금 가능</h6>
+<h6>&emsp;&emsp;&emsp;&emsp;Glacier vault lock : Regulatory management for each collection of credentials in Glacier using the vault lock policy. Lockable</h6>
                              
 <div align="center">
-<br><h4>S3 수명주기</h4> 
+<br><h4>S3 Life Cycle</h4> 
 <img src="https://user-images.githubusercontent.com/59690816/167321873-67dc89e2-6c9b-4e9b-b69d-fdb8e7b3efe8.png" width="500" height="350">
 
-<h6>출처 : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
+<h6>source : https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html</h6>
 </div><br>
-<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, 빠른 블록) 
+<a href="https://aws.amazon.com/ko/ebs/?nc1=h_ls">EBS</a>(Elastic Block Store, fast block) 
 
 <h6>&emsp;&emsp;&emsp;&emsp;DLM(Data Lifecycle Manager) : ebs 스냅샷 및 삭제 예약 가능</h6>
 
