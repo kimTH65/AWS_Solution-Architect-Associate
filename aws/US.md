@@ -22,17 +22,17 @@ AWS Certified Solutions Architect – data compiled to acquire Associates (acqui
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : 서버 자동 증설
+<a href="https://docs.aws.amazon.com/ko_kr/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html">Auto Scaling</a> : Automatic server expansion
 
 <br> 
  
-SAM(Serverless Application Model) : 서버리스 애플리케이션을 빌드하기 위한 배포 도구 
+SAM(Serverless Application Model) : Deployment tools for building serverless applications
 
 <br><br><br>
 
-<h2>컨테이너(Container)</h2>  
+<h2>Container</h2>  
 
-<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Docker 컨테이너 관리 서비스
+<a href="https://github.com/kimTH65/AWS/blob/main/aws/ECS.md">ECS(EC2 Container Service)</a> : Docker Container Management Services
 
 <br>
 
