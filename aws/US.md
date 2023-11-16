@@ -36,14 +36,14 @@ SAM(Serverless Application Model) : Deployment tools for building serverless app
 
 <br>
 
-ECR(Elastic Container Registry) : Docker 컨테이너 이미지를 저장하는 Repository 서비스 
+ECR(Elastic Container Registry) : Repository service for storing Docker container images 
 
 <br>
 
-EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 하는 관리형 서비스
+EKS(Elastic Kubernetes Service) : Managed services that make Kubernetes easy to run
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;  Kubernetes : 여러 컨테이너(Docker)를 관리하는 서비스
+&emsp;&emsp;&emsp;&emsp;  Kubernetes : Services for managing multiple containers (Dockers)
 </h6>
 
 <br><br><br>
@@ -52,7 +52,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 <!--                                        ----------------------------------------------------------                                      -->
 
 
-<h2>네트워킹(Networking)</h2>
+<h2>Networking</h2>
 
 <a href="https://github.com/kimTH65/AWS/blob/main/aws/ELB.md">ELB(Elastic Load Balancing) </a> 
 
@@ -65,7 +65,7 @@ EKS(Elastic Kubernetes Service) : Kubernetes를 쉽게 실행할 수 있도록 �
 <a href="https://aws.amazon.com/ko/route53/">Route53</a> - DNS(Domain Name System)
 
 <h6>
-&emsp;&emsp;&emsp;&emsp;  Latency Based Routing : 현재 위치에서 지연시간(Latency)가 가장 낮은 리전의 IP 주소를 알려줌
+&emsp;&emsp;&emsp;&emsp;  Latency Based Routing : Indicates the IP address of the region with the lowest latency at the current location
 <br><br>
 &emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : 서버 IP 주소 또는, 도메인(ELB)마다 가중치를 부여하는 트래픽을 조절하는 기능
 <br><br>
