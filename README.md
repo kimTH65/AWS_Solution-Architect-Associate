@@ -4,8 +4,6 @@
   <h5>
     Language : 
     <a href="aws/JP.md">日本語</a> 
-      ,
-    <a href="aws/US.md">English</a> 
   </h5>
 </div>
 
