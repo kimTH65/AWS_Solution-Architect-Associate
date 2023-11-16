@@ -67,29 +67,29 @@ EKS(Elastic Kubernetes Service) : Managed services that make Kubernetes easy to 
 <h6>
 &emsp;&emsp;&emsp;&emsp;  Latency Based Routing : Indicates the IP address of the region with the lowest latency at the current location
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : 서버 IP 주소 또는, 도메인(ELB)마다 가중치를 부여하는 트래픽을 조절하는 기능
+&emsp;&emsp;&emsp;&emsp;  Weighted Round Robin : The ability to regulate traffic that is weighted by server IP address or domain (ELB)
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  DNS Failover : 장애가 발생한 서버의 IP 주소 또는, 도메인(ELB)를 알려주지 않는 기능
+&emsp;&emsp;&emsp;&emsp;  DNS Failover : Functionality that does not tell you the IP address or domain (ELB) of the failed server
 <br><br>
-&emsp;&emsp;&emsp;&emsp;  Geo Routing : 지역별로 다른 IP 주소를 알려줌
+&emsp;&emsp;&emsp;&emsp;  Geo Routing : Tells different IP addresses by region
 </h6>
 
 <br>
 
-<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : 어떠한 네트워크와 네트워크 사이의 보안 연결을 설정하는 서비스
+<a href="https://docs.aws.amazon.com/ko_kr/vpn/latest/s2svpn/VPC_VPN.html">VPN</a> : A service that establishes a secure connection between any network and any network
 <h6>
-&emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Clasic VPN, AWS VPC환경과 온프레미스 환경의 VPN연결
+&emsp;&emsp;&emsp;&emsp;Site-to-Site VPN : Classic VPN, AWS VPC and On-premises VPN connecting
 <br><br>  
-&emsp;&emsp;&emsp;&emsp;Clinet VPN : 개인이 AWS 서비스나 온프레미스 환경에 접속할 수 있도록 하는 서비스 
+&emsp;&emsp;&emsp;&emsp;Clinet VPN : Services that allow individuals to access AWS services or on-premises environments
 </h6>
   
 <br>
 
-<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : 콘텐츠 전송 네트워크 = 분산된 여러개의 서버/ atm기 같은 느낌 , 전세계에 53개 저장소 있음
+<a href="https://aws.amazon.com/ko/cloudfront/">CDN(Cloud Front)</a> : Content Delivery Network = Multiple distributed servers/atmeters, 53 repositories worldwide
 
 <br>
 
-<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : 데이터 전용선, AWS환경과 온프레미스 환경과의 연결을 위한 서비스솔루션
+<a href="https://aws.amazon.com/ko/directconnect/?nc1=h_ls">Direct Connect</a> : Data-only, service solution for connecting AWS and on-premises environments
 
 <br>
 
