@@ -2,7 +2,7 @@
 <div align="right">
   <h5>
     Language : 
-    <a href="aws/JP.md">日本語</a> 
+    <a href="aws/JP.md">日本語</a>
   </h5>
 </div>
 
