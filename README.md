@@ -247,6 +247,10 @@ MFA(Multi-Factor Authentication) : 2단계 인증/OTP같은 것, Cognito 사용�
 
 AWS Shield : DDoS 탐지, 완화 및 대응 기능으로 보안 상태를 개선하는 관리형 위협 방지 서비스
 
+<br>
+
+AWS Secrets Manager : 애플리케이션, 서비스 및 IT 리소스에 대한 액세스를 보호하는 데 도움이 되는 보안 정보 관리 서비스
+
 <br><br><br>
 
 
